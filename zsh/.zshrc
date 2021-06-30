@@ -125,6 +125,7 @@ alias refresh="source ~/.zshrc"
 alias cloudsql="~/cloud_sql_proxy -instances=pulifundme:asia-east1:pulifundme-sql=tcp:3307 -credential_file=/Users/jason/cloudsql.json"
 alias drmai="docker images | awk '{print $3}' | xargs docker rmi"
 alias drmac="docker ps-a | awk '{print $1}' | xargs docker rm"
+alias vim="nvim"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 

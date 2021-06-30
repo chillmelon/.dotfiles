@@ -11,9 +11,9 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'arcticicestudio/nord-vim'
 Plug 'preservim/nerdcommenter'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'scrooloose/nerdtree'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'scrooloose/nerdtree'
 Plug 'ap/vim-css-color'
 Plug 'tpope/vim-fugitive'
 Plug 'Yggdroot/indentLine'
@@ -38,8 +38,8 @@ call plug#end()
 " =======
 " Indents
 " =======
-let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
+let g:html_indent_script1 = "inc"
 set cinoptions+=:0,=4
 " ======
 " Styles
