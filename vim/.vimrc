@@ -31,8 +31,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'pangloss/vim-javascript'
 Plug 'othree/html5.vim'
-Plug 'lervag/vimtex'
-Plug 'xuhdev/vim-latex-live-preview'
 call plug#end()
 
 " =======

@@ -16,6 +16,8 @@ export LC_ALL=en_US.UTF-8
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
 export CLASSPATH=$CLASSPATH:$HOME/junit/junit.jar
+# silence powerlevel10k
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/jason/.oh-my-zsh"
@@ -62,8 +64,8 @@ export ZSH="/Users/jason/.oh-my-zsh"
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
 
-# Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
+# Uncomment the following line to display red dots whilst waiting for completion.
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -126,6 +128,7 @@ alias cloudsql="~/cloud_sql_proxy -instances=pulifundme:asia-east1:pulifundme-sq
 alias drmai="docker images | awk '{print $3}' | xargs docker rmi"
 alias drmac="docker ps-a | awk '{print $1}' | xargs docker rm"
 alias vim="nvim"
+alias tb="tmux kill-session"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
