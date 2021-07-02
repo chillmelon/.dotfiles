@@ -17,7 +17,6 @@ export LC_ALL=en_US.UTF-8
 export PATH=$HOME/.composer/vendor/bin:$PATH
 export CLASSPATH=$CLASSPATH:$HOME/junit/junit.jar
 # silence powerlevel10k
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/jason/.oh-my-zsh"
@@ -97,7 +96,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 # User configuration
-source $HOME/Documents/code/scripts/
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
