@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: Sat Jul  3 17:53:16 CST 2021
+#-- GENERATED: Sun Jul  4 00:27:12 CST 2021
 #-- ANTIGEN v2.2.2
 _antigen () {
 	local -a _1st_arguments
@@ -32,11 +32,11 @@ _antigen () {
 }
 antigen () {
   local MATCH MBEGIN MEND
-  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/Users/chillmelon/.oh-my-zsh/antigen.zsh" && eval antigen $@;
+  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/Users/chillmelon/.dotfiles/zsh/.oh-my-zsh/antigen.zsh" && eval antigen $@;
   return 0;
 }
 typeset -gaU fpath path
-fpath+=(/Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew /Users/chillmelon/.antigen/bundles/zsh-users/zsh-syntax-highlighting /Users/chillmelon/.antigen/bundles/zsh-users/zsh-autosuggestions /Users/chillmelon/.antigen/bundles/zsh-users/zsh-completions /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k) path+=(/Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew /Users/chillmelon/.antigen/bundles/zsh-users/zsh-syntax-highlighting /Users/chillmelon/.antigen/bundles/zsh-users/zsh-autosuggestions /Users/chillmelon/.antigen/bundles/zsh-users/zsh-completions /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k)
+fpath+=(/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-syntax-highlighting /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-autosuggestions /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-completions /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/romkatv/powerlevel10k) path+=(/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-syntax-highlighting /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-autosuggestions /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-completions /Users/chillmelon/.dotfiles/zsh/.antigen/bundles/romkatv/powerlevel10k)
 _antigen_compinit () {
   autoload -Uz compinit; compinit -d "/Users/chillmelon/.antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -48,13 +48,13 @@ if [[ -n "/Users/chillmelon/.oh-my-zsh" ]]; then
   ZSH="/Users/chillmelon/.oh-my-zsh"; ZSH_CACHE_DIR="/Users/chillmelon/.oh-my-zsh/cache"
 fi
 #--- BUNDLES BEGIN
-source '/Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh';
-source '/Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh';
-source '/Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew/brew.plugin.zsh';
-source '/Users/chillmelon/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
-source '/Users/chillmelon/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh';
-source '/Users/chillmelon/.antigen/bundles/zsh-users/zsh-completions/zsh-completions.plugin.zsh';
-source '/Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k/powerlevel10k.zsh-theme.antigen-compat';
+source '/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh';
+source '/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh';
+source '/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew/brew.plugin.zsh';
+source '/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
+source '/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh';
+source '/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/zsh-users/zsh-completions/zsh-completions.plugin.zsh';
+source '/Users/chillmelon/.dotfiles/zsh/.antigen/bundles/romkatv/powerlevel10k/powerlevel10k.zsh-theme.antigen-compat';
 
 #--- BUNDLES END
 typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/robbyrussell/oh-my-zsh.git plugins/git plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/pip plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/brew plugin true' 'https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true' 'https://github.com/zsh-users/zsh-autosuggestions.git / plugin true' 'https://github.com/zsh-users/zsh-completions.git / plugin true' 'https://github.com/romkatv/powerlevel10k.git / theme true')

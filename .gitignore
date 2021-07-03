@@ -4,3 +4,4 @@ node_modules/
 undodir/
 .zcompdump*
 .DS_Store
+*.zwc

@@ -11,8 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Aliases
 alias vim="nvim"
-alias ll="ls -la"
-alias la="ls -a"
+alias cat="bat"
 
 # Plugins
 source $ZSH/oh-my-zsh.sh
