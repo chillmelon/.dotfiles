@@ -2,3 +2,5 @@ plugged/
 node_modules/
 .netrwhist
 undodir/
+.zcompdump*
+.DS_Store

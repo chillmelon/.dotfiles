@@ -1,0 +1,1212 @@
+[WRN][1625305140.6069340706] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305140.6069340706] -antigen-interactive-mode: file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305140.6073160172] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305140.6073160172] -antigen-lock-init return code was 0
+[LOG][1625305140.6075980663] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305140.6075980663] LOADED EXTENSION lock EXT
+[WRN][1625305140.6099250317] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1684
+[WRN][1625305140.6099250317] Init parallel extension PARALLEL
+[WRN][1625305140.6100521088] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305140.6100521088] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305140.6102008820] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305140.6102008820] -antigen-parallel-init return code was 0
+[LOG][1625305140.6102969646] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305140.6102969646] LOADED EXTENSION parallel EXT
+[WRN][1625305140.6104469299] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1692
+[WRN][1625305140.6104469299] Exec parallel extension PARALLEL
+[WRN][1625305140.6107430458] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305140.6107430458] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305140.6108539104] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305140.6108539104] -antigen-defer-init return code was 0
+[LOG][1625305140.6109690666] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305140.6109690666] LOADED EXTENSION defer EXT
+[WRN][1625305140.6122128963] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305140.6122128963] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305140.6124579906] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305140.6124579906] -antigen-cache-init return code was 0
+[LOG][1625305140.6125481129] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305140.6125481129] LOADED EXTENSION cache EXT
+[WRN][1625305140.6147909164] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6147909164] Updated meta: target antigen mode once type pre called 1
+[WRN][1625305140.6150510311] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305140.6150510311] Processing hooks: antigen-lock
+[WRN][1625305140.6151509285] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305140.6151509285] Pre hook: antigen-lock theme romkatv/powerlevel10k
+[LOG][1625305140.6153008938] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1658
+[LOG][1625305140.6153008938] antigen-lock called
+[WRN][1625305140.6154110432] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1669
+[WRN][1625305140.6154110432] Creating antigen-lock file at /Users/chillmelon/.antigen/.lock
+[WRN][1625305140.6171729565] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305140.6171729565] -antigen-hook-antigen theme romkatv/powerlevel10k
+[WRN][1625305140.6192619801] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6192619801] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1625305140.6194589138] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6194589138] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1625305140.6195828915] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305140.6195828915] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305140.6196761131] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305140.6196761131] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305140.6199669838] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305140.6199669838] Replace hook: antigen-bundle-defer romkatv/powerlevel10k --btype=theme
+[WRN][1625305140.6201601028] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305140.6201601028] antigen-bundle-defer shortcircuited
+[LOG][1625305140.6203620434] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305140.6203620434] Return from hook antigen with 0
+[WRN][1625305140.6206319332] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305140.6206319332] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305140.6207740307] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305140.6207740307] Processing hooks: antigen-lock
+[WRN][1625305140.6209750175] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305140.6209750175] -antigen-hook-antigen apply
+[WRN][1625305140.6211729050] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6211729050] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1625305140.6212990284] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6212990284] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1625305140.6214220524] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6214220524] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1625305140.6215429306] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6215429306] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1625305140.6216630936] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6216630936] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1625305140.6217598915] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305140.6217598915] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1625305140.6218500137] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305140.6218500137] Pre hook: antigen-apply-parallel
+[WRN][1625305140.6219360828] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1744
+[WRN][1625305140.6219360828] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1625305140.6221010685] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305140.6221010685] Pre hook: antigen-apply-defer
+[WRN][1625305140.6221868992] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1623
+[WRN][1625305140.6221868992] Defer pre-apply DEFER PRE-APPLY
+[LOG][1625305140.6223800182] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305140.6223800182] Processing deferred bundle: romkatv/powerlevel10k --btype=theme DEFER
+[WRN][1625305140.6225390434] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6225390434] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1625305140.6226561069] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305140.6226561069] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1625305140.6227550507] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305140.6227550507] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305140.6228430271] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305140.6228430271] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305140.6229569912] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305140.6229569912] Replace hook: antigen-bundle-parallel romkatv/powerlevel10k --btype=theme
+[TRA][1625305140.6230509281] /Users/chillmelon/.zshrc:1748
+[TRA][1625305140.6230509281] antigen-bundle-parallel: romkatv/powerlevel10k --btype=theme PARALLEL
+[TRA][1625305140.6230509281] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305140.6231560707] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305140.6231560707] Replaced hooked function.
+[LOG][1625305140.6232380867] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305140.6232380867] Return from hook antigen-bundle with 0
+[WRN][1625305140.6233758926] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305140.6233758926] Replace hook: antigen-apply-parallel-execute
+[WRN][1625305140.6234591007] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1756
+[WRN][1625305140.6234591007] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1625305140.6236989498] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1695
+[WRN][1625305140.6236989498] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1625305140.6237900257] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1699
+[WRN][1625305140.6237900257] Gonna install in parallel 1 bundles. PARALLEL
+[WRN][1625305140.6238739491] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1701
+[WRN][1625305140.6238739491] romkatv/powerlevel10k --btype=theme PARALLEL
+[WRN][1625305140.6248149872] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1708
+[WRN][1625305140.6248149872] Install in parallel romkatv/powerlevel10k. PARALLEL
+[WRN][1625305143.1672890186] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305143.1672890186] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1625305143.1676669121] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305143.1676669121] Processing hooks: antigen-bundle-cached
+[WRN][1625305143.1680819988] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305143.1680819988] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305143.1683630943] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305143.1683630943] -antigen-hook-antigen-bundle romkatv/powerlevel10k --btype=theme
+[TRA][1625305143.1685690880] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305143.1685690880] Called antigen-bundle with romkatv/powerlevel10k --btype=theme BUNDLE
+[TRA][1625305143.1685690880] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305143.1699290276] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305143.1699290276] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1625305143.1701400280] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305143.1701400280] Processing hooks: -antigen-load-env-cached
+[WRN][1625305143.1703341007] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305143.1703341007] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k btype theme url https://github.com/romkatv/powerlevel10k.git loc / name romkatv/powerlevel10k make_local_clone true
+[WRN][1625305143.1705839634] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305143.1705839634] Replaced hooked function.
+[LOG][1625305143.1707279682] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305143.1707279682] Return from hook -antigen-load-env with 0
+[WRN][1625305143.1710369587] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305143.1710369587] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1625305143.1712000370] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305143.1712000370] Processing hooks: -antigen-load-source-cached
+[WRN][1625305143.1713700294] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305143.1713700294] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[WRN][1625305143.1715540886] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305143.1715540886] Replaced hooked function.
+[LOG][1625305143.1716949940] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305143.1716949940] Return from hook -antigen-load-source with 0
+[LOG][1625305143.1719229221] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305143.1719229221] Return from hook antigen-bundle with 0
+[WRN][1625305143.1721069813] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1739
+[WRN][1625305143.1721069813] Parallel install done PARALLEL
+[WRN][1625305143.1725380421] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305143.1725380421] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1625305143.1727108955] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305143.1727108955] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1625305143.1729440689] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305143.1729440689] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1625305143.1731181145] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305143.1731181145] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1625305143.1732699871] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305143.1732699871] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1625305143.1734249592] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305143.1734249592] -antigen-hook-antigen-apply 
+[LOG][1625305143.1735770702] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[LOG][1625305143.1735770702] Called antigen-apply
+[TRA][1625305143.1737010479] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1439
+[TRA][1625305143.1737010479] Gonna create compdump file @ apply COMPDUMP
+[TRA][1625305143.1737010479] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[LOG][1625305143.5697851181] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305143.5697851181] Return from hook antigen-apply with 0
+[WRN][1625305143.5700340271] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305143.5700340271] Replaced hooked function.
+[WRN][1625305143.5701251030] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1513
+[WRN][1625305143.5701251030] Post hook: antigen-apply-lock
+[WRN][1625305143.5702700615] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1676
+[WRN][1625305143.5702700615] Freeing antigen-lock file at /Users/chillmelon/.antigen/.lock
+[WRN][1625305143.5721058846] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1513
+[WRN][1625305143.5721058846] Post hook: antigen-apply-cached
+[LOG][1625305143.5722339153] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1893
+[LOG][1625305143.5722339153] TRACE: /Users/chillmelon/.oh-my-zsh/antigen.zsh:1514 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1441 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1447 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1506 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1441 /Users/chillmelon/.zshrc:16 zsh:0
+[LOG][1625305143.5723879337] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1787
+[LOG][1625305143.5723879337] Gonna generate cache for /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k// /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[LOG][1625305143.5850920677] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1844
+[LOG][1625305143.5850920677] CHECK_FILES /Users/chillmelon/.zshrc /Users/chillmelon/.zshrc
+[LOG][1625305143.9412779808] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305143.9412779808] Return from hook antigen-apply with 0
+[LOG][1625305143.9414830208] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305143.9414830208] Return from hook antigen with 0
+[WRN][1625305191.0486640930] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305191.0486640930] -antigen-interactive-mode: file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305191.0489709377] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305191.0489709377] -antigen-lock-init return code was 0
+[LOG][1625305191.0490660667] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305191.0490660667] LOADED EXTENSION lock EXT
+[WRN][1625305191.0513319969] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1684
+[WRN][1625305191.0513319969] Init parallel extension PARALLEL
+[WRN][1625305191.0514640808] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305191.0514640808] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305191.0516040325] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305191.0516040325] -antigen-parallel-init return code was 0
+[LOG][1625305191.0516939163] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305191.0516939163] LOADED EXTENSION parallel EXT
+[WRN][1625305191.0517990589] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1692
+[WRN][1625305191.0517990589] Exec parallel extension PARALLEL
+[WRN][1625305191.0521500111] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305191.0521500111] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305191.0522680283] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305191.0522680283] -antigen-defer-init return code was 0
+[LOG][1625305191.0523729324] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305191.0523729324] LOADED EXTENSION defer EXT
+[WRN][1625305191.0536661148] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305191.0536661148] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305191.0539200306] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305191.0539200306] -antigen-cache-init return code was 0
+[LOG][1625305191.0540120602] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305191.0540120602] LOADED EXTENSION cache EXT
+[WRN][1625305191.0564639568] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0564639568] Updated meta: target antigen mode once type pre called 1
+[WRN][1625305191.0565838814] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0565838814] Processing hooks: antigen-lock
+[WRN][1625305191.0567181110] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305191.0567181110] Pre hook: antigen-lock theme romkatv/powerlevel10k
+[LOG][1625305191.0568220615] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1658
+[LOG][1625305191.0568220615] antigen-lock called
+[WRN][1625305191.0569179058] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1669
+[WRN][1625305191.0569179058] Creating antigen-lock file at /Users/chillmelon/.antigen/.lock
+[WRN][1625305191.0607209206] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305191.0607209206] -antigen-hook-antigen theme romkatv/powerlevel10k
+[WRN][1625305191.0629210472] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0629210472] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1625305191.0630819798] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0630819798] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1625305191.0631909370] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0631909370] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305191.0632910728] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305191.0632910728] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305191.0634980202] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305191.0634980202] Replace hook: antigen-bundle-defer romkatv/powerlevel10k --btype=theme
+[WRN][1625305191.0636570454] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305191.0636570454] antigen-bundle-defer shortcircuited
+[LOG][1625305191.0638360977] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.0638360977] Return from hook antigen with 0
+[WRN][1625305191.0640339851] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305191.0640339851] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305191.0641269684] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0641269684] Processing hooks: antigen-lock
+[WRN][1625305191.0643310547] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305191.0643310547] -antigen-hook-antigen apply
+[WRN][1625305191.0645411015] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0645411015] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1625305191.0646979809] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0646979809] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1625305191.0648341179] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0648341179] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1625305191.0649631023] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0649631023] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1625305191.0651419163] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0651419163] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1625305191.0652489662] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0652489662] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1625305191.0653769970] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305191.0653769970] Pre hook: antigen-apply-parallel
+[WRN][1625305191.0654890537] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1744
+[WRN][1625305191.0654890537] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1625305191.0657989979] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305191.0657989979] Pre hook: antigen-apply-defer
+[WRN][1625305191.0659010410] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1623
+[WRN][1625305191.0659010410] Defer pre-apply DEFER PRE-APPLY
+[LOG][1625305191.0661540031] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305191.0661540031] Processing deferred bundle: romkatv/powerlevel10k --btype=theme DEFER
+[WRN][1625305191.0663330555] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0663330555] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1625305191.0664699078] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0664699078] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1625305191.0665769577] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0665769577] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305191.0667080879] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305191.0667080879] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305191.0668439865] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305191.0668439865] Replace hook: antigen-bundle-parallel romkatv/powerlevel10k --btype=theme
+[TRA][1625305191.0669488907] /Users/chillmelon/.zshrc:1748
+[TRA][1625305191.0669488907] antigen-bundle-parallel: romkatv/powerlevel10k --btype=theme PARALLEL
+[TRA][1625305191.0669488907] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305191.0670700073] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305191.0670700073] Replaced hooked function.
+[LOG][1625305191.0671639442] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.0671639442] Return from hook antigen-bundle with 0
+[WRN][1625305191.0673179626] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305191.0673179626] Replace hook: antigen-apply-parallel-execute
+[WRN][1625305191.0674190521] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1756
+[WRN][1625305191.0674190521] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1625305191.0676460266] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1695
+[WRN][1625305191.0676460266] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1625305191.0677540302] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1699
+[WRN][1625305191.0677540302] Gonna install in parallel 1 bundles. PARALLEL
+[WRN][1625305191.0678470135] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1701
+[WRN][1625305191.0678470135] romkatv/powerlevel10k --btype=theme PARALLEL
+[WRN][1625305191.0688090324] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1715
+[WRN][1625305191.0688090324] Bundle romkatv/powerlevel10k already cloned locally. PARALLEL
+[WRN][1625305191.0690839291] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0690839291] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1625305191.0692019463] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0692019463] Processing hooks: antigen-bundle-cached
+[WRN][1625305191.0693070889] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305191.0693070889] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305191.0695130825] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305191.0695130825] -antigen-hook-antigen-bundle romkatv/powerlevel10k --btype=theme
+[TRA][1625305191.0696260929] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305191.0696260929] Called antigen-bundle with romkatv/powerlevel10k --btype=theme BUNDLE
+[TRA][1625305191.0696260929] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305191.0703868866] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0703868866] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1625305191.0705280304] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0705280304] Processing hooks: -antigen-load-env-cached
+[WRN][1625305191.0706830025] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305191.0706830025] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k btype theme url https://github.com/romkatv/powerlevel10k.git loc / name romkatv/powerlevel10k make_local_clone true
+[WRN][1625305191.0708620548] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305191.0708620548] Replaced hooked function.
+[LOG][1625305191.0709669590] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.0709669590] Return from hook -antigen-load-env with 0
+[WRN][1625305191.0711910725] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305191.0711910725] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1625305191.0713100433] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0713100433] Processing hooks: -antigen-load-source-cached
+[WRN][1625305191.0714290142] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305191.0714290142] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[WRN][1625305191.0715599060] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305191.0715599060] Replaced hooked function.
+[LOG][1625305191.0716769695] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.0716769695] Return from hook -antigen-load-source with 0
+[LOG][1625305191.0718450546] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.0718450546] Return from hook antigen-bundle with 0
+[WRN][1625305191.0719730854] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1739
+[WRN][1625305191.0719730854] Parallel install done PARALLEL
+[WRN][1625305191.0723319054] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305191.0723319054] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1625305191.0724658966] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305191.0724658966] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1625305191.0725879669] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305191.0725879669] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1625305191.0727210045] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305191.0727210045] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1625305191.0728199482] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305191.0728199482] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1625305191.0729219913] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305191.0729219913] -antigen-hook-antigen-apply 
+[LOG][1625305191.0730218887] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[LOG][1625305191.0730218887] Called antigen-apply
+[TRA][1625305191.0731871128] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1439
+[TRA][1625305191.0731871128] Gonna create compdump file @ apply COMPDUMP
+[TRA][1625305191.0731871128] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[LOG][1625305191.0997979641] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.0997979641] Return from hook antigen-apply with 0
+[WRN][1625305191.1000750065] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305191.1000750065] Replaced hooked function.
+[WRN][1625305191.1001739502] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1513
+[WRN][1625305191.1001739502] Post hook: antigen-apply-lock
+[WRN][1625305191.1003570557] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1676
+[WRN][1625305191.1003570557] Freeing antigen-lock file at /Users/chillmelon/.antigen/.lock
+[WRN][1625305191.1022338867] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1513
+[WRN][1625305191.1022338867] Post hook: antigen-apply-cached
+[LOG][1625305191.1023631096] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1893
+[LOG][1625305191.1023631096] TRACE: /Users/chillmelon/.oh-my-zsh/antigen.zsh:1514 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1441 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1447 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1506 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1441 /Users/chillmelon/.zshrc:23 zsh:0
+[LOG][1625305191.1025118828] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1787
+[LOG][1625305191.1025118828] Gonna generate cache for /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k// /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[LOG][1625305191.1142599583] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1844
+[LOG][1625305191.1142599583] CHECK_FILES /Users/chillmelon/.zshrc /Users/chillmelon/.zshrc
+[LOG][1625305191.1378090382] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.1378090382] Return from hook antigen-apply with 0
+[LOG][1625305191.1380169392] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305191.1380169392] Return from hook antigen with 0
+[WRN][1625305993.1874790192] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305993.1874790192] -antigen-interactive-mode: file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305993.1878199577] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305993.1878199577] -antigen-lock-init return code was 0
+[LOG][1625305993.1879329681] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305993.1879329681] LOADED EXTENSION lock EXT
+[WRN][1625305993.1902449131] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1684
+[WRN][1625305993.1902449131] Init parallel extension PARALLEL
+[WRN][1625305993.1903960705] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305993.1903960705] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305993.1905410290] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305993.1905410290] -antigen-parallel-init return code was 0
+[LOG][1625305993.1906309128] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305993.1906309128] LOADED EXTENSION parallel EXT
+[WRN][1625305993.1907339096] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1692
+[WRN][1625305993.1907339096] Exec parallel extension PARALLEL
+[WRN][1625305993.1910119057] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305993.1910119057] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305993.1911239624] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305993.1911239624] -antigen-defer-init return code was 0
+[LOG][1625305993.1912670135] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305993.1912670135] LOADED EXTENSION defer EXT
+[WRN][1625305993.1929080486] /Users/chillmelon/.oh-my-zsh/antigen.zsh:266
+[WRN][1625305993.1929080486] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1625305993.1931800842] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1572
+[WRN][1625305993.1931800842] -antigen-cache-init return code was 0
+[LOG][1625305993.1932740211] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1574
+[LOG][1625305993.1932740211] LOADED EXTENSION cache EXT
+[WRN][1625305993.1957719326] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.1957719326] Updated meta: target antigen mode once type pre called 1
+[WRN][1625305993.1959559917] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.1959559917] Processing hooks: antigen-lock
+[WRN][1625305993.1960470676] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.1960470676] Pre hook: antigen-lock bundle git
+[LOG][1625305993.1962969303] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1658
+[LOG][1625305993.1962969303] antigen-lock called
+[WRN][1625305993.1964080334] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1669
+[WRN][1625305993.1964080334] Creating antigen-lock file at /Users/chillmelon/.antigen/.lock
+[WRN][1625305993.2002630234] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2002630234] -antigen-hook-antigen bundle git
+[WRN][1625305993.2004969120] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2004969120] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1625305993.2006249428] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2006249428] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1625305993.2007288933] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2007288933] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305993.2008171082] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2008171082] Pre hook: antigen-bundle-cached git
+[WRN][1625305993.2009360790] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2009360790] Replace hook: antigen-bundle-defer git
+[WRN][1625305993.2010378838] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305993.2010378838] antigen-bundle-defer shortcircuited
+[LOG][1625305993.2012059689] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2012059689] Return from hook antigen with 0
+[WRN][1625305993.2014110088] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305993.2014110088] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305993.2015020847] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2015020847] Processing hooks: antigen-lock
+[WRN][1625305993.2016539574] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2016539574] -antigen-hook-antigen bundle pip
+[WRN][1625305993.2018458843] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2018458843] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1625305993.2019701004] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2019701004] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1625305993.2020699978] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2020699978] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305993.2021539211] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2021539211] Pre hook: antigen-bundle-cached pip
+[WRN][1625305993.2022840977] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2022840977] Replace hook: antigen-bundle-defer pip
+[WRN][1625305993.2023830414] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305993.2023830414] antigen-bundle-defer shortcircuited
+[LOG][1625305993.2025089264] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2025089264] Return from hook antigen with 0
+[WRN][1625305993.2026851177] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305993.2026851177] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305993.2027719021] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2027719021] Processing hooks: antigen-lock
+[WRN][1625305993.2028679848] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2028679848] -antigen-hook-antigen bundle brew
+[WRN][1625305993.2030379772] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2030379772] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1625305993.2031550407] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2031550407] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1625305993.2032999992] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2032999992] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305993.2033879757] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2033879757] Pre hook: antigen-bundle-cached brew
+[WRN][1625305993.2035090923] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2035090923] Replace hook: antigen-bundle-defer brew
+[WRN][1625305993.2036099434] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305993.2036099434] antigen-bundle-defer shortcircuited
+[LOG][1625305993.2038230896] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2038230896] Return from hook antigen with 0
+[WRN][1625305993.2039949894] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305993.2039949894] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305993.2040829659] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2040829659] Processing hooks: antigen-lock
+[WRN][1625305993.2041790485] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2041790485] -antigen-hook-antigen bundle zsh-users/zsh-syntax-highlighting
+[WRN][1625305993.2043509483] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2043509483] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1625305993.2044720650] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2044720650] Updated meta: target antigen-bundle mode repeat type pre called 4
+[WRN][1625305993.2045700550] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2045700550] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305993.2046599388] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2046599388] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1625305993.2047779560] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2047779560] Replace hook: antigen-bundle-defer zsh-users/zsh-syntax-highlighting
+[WRN][1625305993.2048819065] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305993.2048819065] antigen-bundle-defer shortcircuited
+[LOG][1625305993.2050089836] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2050089836] Return from hook antigen with 0
+[WRN][1625305993.2051880360] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305993.2051880360] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305993.2052750587] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2052750587] Processing hooks: antigen-lock
+[WRN][1625305993.2054009438] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2054009438] -antigen-hook-antigen bundle zsh-users/zsh-autosuggestions
+[WRN][1625305993.2055931091] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2055931091] Updated meta: target antigen-bundle mode repeat type replace called 5
+[WRN][1625305993.2057199478] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2057199478] Updated meta: target antigen-bundle mode repeat type pre called 5
+[WRN][1625305993.2058560848] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2058560848] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305993.2059590816] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2059590816] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1625305993.2060871124] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2060871124] Replace hook: antigen-bundle-defer zsh-users/zsh-autosuggestions
+[WRN][1625305993.2061920166] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305993.2061920166] antigen-bundle-defer shortcircuited
+[LOG][1625305993.2063241005] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2063241005] Return from hook antigen with 0
+[WRN][1625305993.2064969540] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305993.2064969540] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305993.2065870762] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2065870762] Processing hooks: antigen-lock
+[WRN][1625305993.2067310810] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2067310810] -antigen-hook-antigen bundle zsh-users/zsh-completions
+[WRN][1625305993.2069079876] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2069079876] Updated meta: target antigen-bundle mode repeat type replace called 6
+[WRN][1625305993.2070291042] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2070291042] Updated meta: target antigen-bundle mode repeat type pre called 6
+[WRN][1625305993.2071270943] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2071270943] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305993.2072169781] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2072169781] Pre hook: antigen-bundle-cached zsh-users/zsh-completions
+[WRN][1625305993.2073330879] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2073330879] Replace hook: antigen-bundle-defer zsh-users/zsh-completions
+[WRN][1625305993.2074398994] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305993.2074398994] antigen-bundle-defer shortcircuited
+[LOG][1625305993.2075650692] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2075650692] Return from hook antigen with 0
+[WRN][1625305993.2077341080] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305993.2077341080] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305993.2078208923] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2078208923] Processing hooks: antigen-lock
+[WRN][1625305993.2079169750] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2079169750] -antigen-hook-antigen theme romkatv/powerlevel10k
+[WRN][1625305993.2100000381] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2100000381] Updated meta: target antigen-bundle mode repeat type replace called 7
+[WRN][1625305993.2101440430] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2101440430] Updated meta: target antigen-bundle mode repeat type pre called 7
+[WRN][1625305993.2103400230] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2103400230] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1625305993.2104959488] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2104959488] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305993.2106189728] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2106189728] Replace hook: antigen-bundle-defer romkatv/powerlevel10k --btype=theme
+[WRN][1625305993.2107260227] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1500
+[WRN][1625305993.2107260227] antigen-bundle-defer shortcircuited
+[LOG][1625305993.2108991146] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2108991146] Return from hook antigen with 0
+[WRN][1625305993.2110838890] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305993.2110838890] Ignoring hook due to mode once: antigen-lock
+[WRN][1625305993.2111721039] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2111721039] Processing hooks: antigen-lock
+[WRN][1625305993.2113089561] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305993.2113089561] -antigen-hook-antigen apply
+[WRN][1625305993.2114839554] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2114839554] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1625305993.2116050720] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2116050720] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1625305993.2117249966] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2117249966] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1625305993.2118430138] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2118430138] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1625305993.2119629383] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2119629383] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1625305993.2121019363] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2121019363] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1625305993.2121920586] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2121920586] Pre hook: antigen-apply-parallel
+[WRN][1625305993.2122790813] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1744
+[WRN][1625305993.2122790813] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1625305993.2124409676] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2124409676] Pre hook: antigen-apply-defer
+[WRN][1625305993.2125289440] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1623
+[WRN][1625305993.2125289440] Defer pre-apply DEFER PRE-APPLY
+[LOG][1625305993.2127239704] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305993.2127239704] Processing deferred bundle: git DEFER
+[WRN][1625305993.2128810883] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2128810883] Updated meta: target antigen-bundle mode repeat type pre called 8
+[WRN][1625305993.2130010128] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2130010128] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1625305993.2130990028] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2130990028] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305993.2131850719] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2131850719] Pre hook: antigen-bundle-cached git
+[WRN][1625305993.2133030891] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2133030891] Replace hook: antigen-bundle-parallel git
+[TRA][1625305993.2133951187] /Users/chillmelon/.zshrc:1748
+[TRA][1625305993.2133951187] antigen-bundle-parallel: git PARALLEL
+[TRA][1625305993.2133951187] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305993.2134990692] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305993.2134990692] Replaced hooked function.
+[LOG][1625305993.2135820389] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2135820389] Return from hook antigen-bundle with 0
+[LOG][1625305993.2136969566] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305993.2136969566] Processing deferred bundle: pip DEFER
+[WRN][1625305993.2138469219] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2138469219] Updated meta: target antigen-bundle mode repeat type pre called 9
+[WRN][1625305993.2139630318] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2139630318] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1625305993.2140569687] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2140569687] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305993.2141408920] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2141408920] Pre hook: antigen-bundle-cached pip
+[WRN][1625305993.2142539024] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2142539024] Replace hook: antigen-bundle-parallel pip
+[TRA][1625305993.2143409252] /Users/chillmelon/.zshrc:1748
+[TRA][1625305993.2143409252] antigen-bundle-parallel: pip PARALLEL
+[TRA][1625305993.2143409252] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305993.2144420147] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305993.2144420147] Replaced hooked function.
+[LOG][1625305993.2145268917] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2145268917] Return from hook antigen-bundle with 0
+[LOG][1625305993.2147150040] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305993.2147150040] Processing deferred bundle: brew DEFER
+[WRN][1625305993.2149319649] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2149319649] Updated meta: target antigen-bundle mode repeat type pre called 10
+[WRN][1625305993.2150609493] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2150609493] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1625305993.2151648998] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2151648998] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305993.2152531147] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2152531147] Pre hook: antigen-bundle-cached brew
+[WRN][1625305993.2153880596] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2153880596] Replace hook: antigen-bundle-parallel brew
+[TRA][1625305993.2154769897] /Users/chillmelon/.zshrc:1748
+[TRA][1625305993.2154769897] antigen-bundle-parallel: brew PARALLEL
+[TRA][1625305993.2154769897] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305993.2155969143] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305993.2155969143] Replaced hooked function.
+[LOG][1625305993.2156848907] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2156848907] Return from hook antigen-bundle with 0
+[LOG][1625305993.2157919407] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305993.2157919407] Processing deferred bundle: zsh-users/zsh-syntax-highlighting DEFER
+[WRN][1625305993.2159481049] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2159481049] Updated meta: target antigen-bundle mode repeat type pre called 11
+[WRN][1625305993.2160670757] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2160670757] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1625305993.2161760330] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2161760330] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305993.2162621021] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2162621021] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1625305993.2163829803] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2163829803] Replace hook: antigen-bundle-parallel zsh-users/zsh-syntax-highlighting
+[TRA][1625305993.2164731026] /Users/chillmelon/.zshrc:1748
+[TRA][1625305993.2164731026] antigen-bundle-parallel: zsh-users/zsh-syntax-highlighting PARALLEL
+[TRA][1625305993.2164731026] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305993.2165830135] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305993.2165830135] Replaced hooked function.
+[LOG][1625305993.2166690826] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2166690826] Return from hook antigen-bundle with 0
+[LOG][1625305993.2167789936] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305993.2167789936] Processing deferred bundle: zsh-users/zsh-autosuggestions DEFER
+[WRN][1625305993.2169330120] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2169330120] Updated meta: target antigen-bundle mode repeat type pre called 12
+[WRN][1625305993.2170519829] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2170519829] Updated meta: target antigen-bundle mode repeat type replace called 5
+[WRN][1625305993.2171509266] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2171509266] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305993.2172400951] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2172400951] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1625305993.2173559666] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2173559666] Replace hook: antigen-bundle-parallel zsh-users/zsh-autosuggestions
+[TRA][1625305993.2174870968] /Users/chillmelon/.zshrc:1748
+[TRA][1625305993.2174870968] antigen-bundle-parallel: zsh-users/zsh-autosuggestions PARALLEL
+[TRA][1625305993.2174870968] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305993.2175970078] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305993.2175970078] Replaced hooked function.
+[LOG][1625305993.2176868916] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2176868916] Return from hook antigen-bundle with 0
+[LOG][1625305993.2177910805] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305993.2177910805] Processing deferred bundle: zsh-users/zsh-completions DEFER
+[WRN][1625305993.2179489136] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2179489136] Updated meta: target antigen-bundle mode repeat type pre called 13
+[WRN][1625305993.2180678844] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2180678844] Updated meta: target antigen-bundle mode repeat type replace called 6
+[WRN][1625305993.2181670666] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2181670666] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305993.2182579041] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2182579041] Pre hook: antigen-bundle-cached zsh-users/zsh-completions
+[WRN][1625305993.2183740139] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2183740139] Replace hook: antigen-bundle-parallel zsh-users/zsh-completions
+[TRA][1625305993.2184669971] /Users/chillmelon/.zshrc:1748
+[TRA][1625305993.2184669971] antigen-bundle-parallel: zsh-users/zsh-completions PARALLEL
+[TRA][1625305993.2184669971] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305993.2185800076] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305993.2185800076] Replaced hooked function.
+[LOG][1625305993.2186660767] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2186660767] Return from hook antigen-bundle with 0
+[LOG][1625305993.2187750340] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1629
+[LOG][1625305993.2187750340] Processing deferred bundle: romkatv/powerlevel10k --btype=theme DEFER
+[WRN][1625305993.2189290524] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2189290524] Updated meta: target antigen-bundle mode repeat type pre called 14
+[WRN][1625305993.2190508842] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305993.2190508842] Updated meta: target antigen-bundle mode repeat type replace called 7
+[WRN][1625305993.2191479206] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305993.2191479206] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1625305993.2192380428] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305993.2192380428] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305993.2193551064] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2193551064] Replace hook: antigen-bundle-parallel romkatv/powerlevel10k --btype=theme
+[TRA][1625305993.2194459438] /Users/chillmelon/.zshrc:1748
+[TRA][1625305993.2194459438] antigen-bundle-parallel: romkatv/powerlevel10k --btype=theme PARALLEL
+[TRA][1625305993.2194459438] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305993.2195520401] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305993.2195520401] Replaced hooked function.
+[LOG][1625305993.2196409702] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305993.2196409702] Return from hook antigen-bundle with 0
+[WRN][1625305993.2197780609] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305993.2197780609] Replace hook: antigen-apply-parallel-execute
+[WRN][1625305993.2199010849] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1756
+[WRN][1625305993.2199010849] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1625305993.2200920582] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1695
+[WRN][1625305993.2200920582] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1625305993.2201828957] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1699
+[WRN][1625305993.2201828957] Gonna install in parallel 7 bundles. PARALLEL
+[WRN][1625305993.2202680111] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1701
+[WRN][1625305993.2202680111] git pip brew zsh-users/zsh-syntax-highlighting zsh-users/zsh-autosuggestions zsh-users/zsh-completions romkatv/powerlevel10k --btype=theme PARALLEL
+[WRN][1625305993.2211449146] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1708
+[WRN][1625305993.2211449146] Install in parallel robbyrussell/oh-my-zsh. PARALLEL
+[WRN][1625305993.2222468853] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1715
+[WRN][1625305993.2222468853] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1625305993.2226328850] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1715
+[WRN][1625305993.2226328850] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1625305993.2230110168] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1708
+[WRN][1625305993.2230110168] Install in parallel zsh-users/zsh-syntax-highlighting. PARALLEL
+[WRN][1625305993.2241680622] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1708
+[WRN][1625305993.2241680622] Install in parallel zsh-users/zsh-autosuggestions. PARALLEL
+[WRN][1625305993.2253379822] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1708
+[WRN][1625305993.2253379822] Install in parallel zsh-users/zsh-completions. PARALLEL
+[WRN][1625305993.2266979218] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1715
+[WRN][1625305993.2266979218] Bundle romkatv/powerlevel10k already cloned locally. PARALLEL
+[WRN][1625305996.3265490532] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3265490532] Updated meta: target antigen-bundle mode repeat type pre called 15
+[WRN][1625305996.3268771172] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3268771172] Processing hooks: antigen-bundle-cached
+[WRN][1625305996.3272900581] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305996.3272900581] Pre hook: antigen-bundle-cached git
+[WRN][1625305996.3276131153] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3276131153] -antigen-hook-antigen-bundle git
+[TRA][1625305996.3278210163] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305996.3278210163] Called antigen-bundle with git BUNDLE
+[TRA][1625305996.3278210163] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305996.3291189671] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3291189671] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1625305996.3293130398] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3293130398] Processing hooks: -antigen-load-env-cached
+[WRN][1625305996.3295130730] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3295130730] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/git name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1625305996.3297619820] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3297619820] Replaced hooked function.
+[LOG][1625305996.3299109936] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3299109936] Return from hook -antigen-load-env with 0
+[WRN][1625305996.3302340508] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3302340508] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1625305996.3304738998] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3304738998] Processing hooks: -antigen-load-source-cached
+[WRN][1625305996.3306500912] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3306500912] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh
+[WRN][1625305996.3308351040] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3308351040] Replaced hooked function.
+[LOG][1625305996.3309769630] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3309769630] Return from hook -antigen-load-source with 0
+[LOG][1625305996.3312239647] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3312239647] Return from hook antigen-bundle with 0
+[WRN][1625305996.3315219879] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3315219879] Updated meta: target antigen-bundle mode repeat type pre called 16
+[WRN][1625305996.3316829205] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3316829205] Processing hooks: antigen-bundle-cached
+[WRN][1625305996.3318309784] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305996.3318309784] Pre hook: antigen-bundle-cached pip
+[WRN][1625305996.3320209980] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3320209980] -antigen-hook-antigen-bundle pip
+[TRA][1625305996.3321640491] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305996.3321640491] Called antigen-bundle with pip BUNDLE
+[TRA][1625305996.3321640491] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305996.3330309391] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3330309391] Updated meta: target -antigen-load-env mode repeat type replace called 2
+[WRN][1625305996.3331830502] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3331830502] Processing hooks: -antigen-load-env-cached
+[WRN][1625305996.3333430290] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3333430290] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/pip name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1625305996.3335609436] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3335609436] Replaced hooked function.
+[LOG][1625305996.3336908817] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3336908817] Return from hook -antigen-load-env with 0
+[WRN][1625305996.3339750767] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3339750767] Updated meta: target -antigen-load-source mode repeat type replace called 2
+[WRN][1625305996.3341140747] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3341140747] Processing hooks: -antigen-load-source-cached
+[WRN][1625305996.3342530727] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3342530727] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh
+[WRN][1625305996.3344020844] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3344020844] Replaced hooked function.
+[LOG][1625305996.3345251083] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3345251083] Return from hook -antigen-load-source with 0
+[LOG][1625305996.3347249031] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3347249031] Return from hook antigen-bundle with 0
+[WRN][1625305996.3349690437] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3349690437] Updated meta: target antigen-bundle mode repeat type pre called 17
+[WRN][1625305996.3351008892] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3351008892] Processing hooks: antigen-bundle-cached
+[WRN][1625305996.3352200985] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305996.3352200985] Pre hook: antigen-bundle-cached brew
+[WRN][1625305996.3354299068] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3354299068] -antigen-hook-antigen-bundle brew
+[TRA][1625305996.3355529308] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305996.3355529308] Called antigen-bundle with brew BUNDLE
+[TRA][1625305996.3355529308] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305996.3363349438] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3363349438] Updated meta: target -antigen-load-env mode repeat type replace called 3
+[WRN][1625305996.3364839554] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3364839554] Processing hooks: -antigen-load-env-cached
+[WRN][1625305996.3366389275] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3366389275] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/brew name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1625305996.3368539810] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3368539810] Replaced hooked function.
+[LOG][1625305996.3369929790] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3369929790] Return from hook -antigen-load-env with 0
+[WRN][1625305996.3372619152] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3372619152] Updated meta: target -antigen-load-source mode repeat type replace called 3
+[WRN][1625305996.3374040127] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3374040127] Processing hooks: -antigen-load-source-cached
+[WRN][1625305996.3375470638] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3375470638] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew/brew.plugin.zsh
+[WRN][1625305996.3377010822] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3377010822] Replaced hooked function.
+[LOG][1625305996.3378310204] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3378310204] Return from hook -antigen-load-source with 0
+[LOG][1625305996.3380351067] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3380351067] Return from hook antigen-bundle with 0
+[WRN][1625305996.3382840157] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3382840157] Updated meta: target antigen-bundle mode repeat type pre called 18
+[WRN][1625305996.3384180069] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3384180069] Processing hooks: antigen-bundle-cached
+[WRN][1625305996.3385388851] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305996.3385388851] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1625305996.3386979103] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3386979103] -antigen-hook-antigen-bundle zsh-users/zsh-syntax-highlighting
+[TRA][1625305996.3388199806] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305996.3388199806] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1625305996.3388199806] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305996.3396389484] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3396389484] Updated meta: target -antigen-load-env mode repeat type replace called 4
+[WRN][1625305996.3397901058] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3397901058] Processing hooks: -antigen-load-env-cached
+[WRN][1625305996.3399550915] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3399550915] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/zsh-users/zsh-syntax-highlighting btype plugin url https://github.com/zsh-users/zsh-syntax-highlighting.git loc / name zsh-users/zsh-syntax-highlighting make_local_clone true
+[WRN][1625305996.3402209282] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3402209282] Replaced hooked function.
+[LOG][1625305996.3403470516] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3403470516] Return from hook -antigen-load-env with 0
+[WRN][1625305996.3406109810] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3406109810] Updated meta: target -antigen-load-source mode repeat type replace called 4
+[WRN][1625305996.3407509327] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3407509327] Processing hooks: -antigen-load-source-cached
+[WRN][1625305996.3408908844] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3408908844] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh
+[WRN][1625305996.3410429955] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3410429955] Replaced hooked function.
+[LOG][1625305996.3411660194] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3411660194] Return from hook -antigen-load-source with 0
+[LOG][1625305996.3413660526] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3413660526] Return from hook antigen-bundle with 0
+[WRN][1625305996.3416121006] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3416121006] Updated meta: target antigen-bundle mode repeat type pre called 19
+[WRN][1625305996.3417429924] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3417429924] Processing hooks: antigen-bundle-cached
+[WRN][1625305996.3418629169] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305996.3418629169] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1625305996.3420269489] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3420269489] -antigen-hook-antigen-bundle zsh-users/zsh-autosuggestions
+[TRA][1625305996.3421480656] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305996.3421480656] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1625305996.3421480656] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305996.3429670334] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3429670334] Updated meta: target -antigen-load-env mode repeat type replace called 5
+[WRN][1625305996.3431110382] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3431110382] Processing hooks: -antigen-load-env-cached
+[WRN][1625305996.3432669640] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3432669640] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/zsh-users/zsh-autosuggestions btype plugin url https://github.com/zsh-users/zsh-autosuggestions.git loc / name zsh-users/zsh-autosuggestions make_local_clone true
+[WRN][1625305996.3434720039] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3434720039] Replaced hooked function.
+[LOG][1625305996.3435928822] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3435928822] Return from hook -antigen-load-env with 0
+[WRN][1625305996.3438630104] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3438630104] Updated meta: target -antigen-load-source mode repeat type replace called 5
+[WRN][1625305996.3440060616] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3440060616] Processing hooks: -antigen-load-source-cached
+[WRN][1625305996.3441560268] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3441560268] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh
+[WRN][1625305996.3443129063] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3443129063] Replaced hooked function.
+[LOG][1625305996.3444390297] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3444390297] Return from hook -antigen-load-source with 0
+[LOG][1625305996.3446409702] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3446409702] Return from hook antigen-bundle with 0
+[WRN][1625305996.3448910713] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3448910713] Updated meta: target antigen-bundle mode repeat type pre called 20
+[WRN][1625305996.3450469971] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3450469971] Processing hooks: antigen-bundle-cached
+[WRN][1625305996.3451728821] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305996.3451728821] Pre hook: antigen-bundle-cached zsh-users/zsh-completions
+[WRN][1625305996.3453910351] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3453910351] -antigen-hook-antigen-bundle zsh-users/zsh-completions
+[TRA][1625305996.3455500603] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305996.3455500603] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1625305996.3455500603] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305996.3465869427] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3465869427] Updated meta: target -antigen-load-env mode repeat type replace called 6
+[WRN][1625305996.3467559814] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3467559814] Processing hooks: -antigen-load-env-cached
+[WRN][1625305996.3469109535] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3469109535] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/zsh-users/zsh-completions btype plugin url https://github.com/zsh-users/zsh-completions.git loc / name zsh-users/zsh-completions make_local_clone true
+[WRN][1625305996.3471150398] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3471150398] Replaced hooked function.
+[LOG][1625305996.3473019600] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3473019600] Return from hook -antigen-load-env with 0
+[WRN][1625305996.3475749493] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3475749493] Updated meta: target -antigen-load-source mode repeat type replace called 6
+[WRN][1625305996.3477189541] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3477189541] Processing hooks: -antigen-load-source-cached
+[WRN][1625305996.3478629589] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3478629589] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/zsh-users/zsh-completions///zsh-completions.plugin.zsh
+[WRN][1625305996.3480141163] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3480141163] Replaced hooked function.
+[LOG][1625305996.3481349945] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3481349945] Return from hook -antigen-load-source with 0
+[LOG][1625305996.3483860493] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3483860493] Return from hook antigen-bundle with 0
+[WRN][1625305996.3486790657] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3486790657] Updated meta: target antigen-bundle mode repeat type pre called 21
+[WRN][1625305996.3488230705] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3488230705] Processing hooks: antigen-bundle-cached
+[WRN][1625305996.3489439487] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1487
+[WRN][1625305996.3489439487] Pre hook: antigen-bundle-cached romkatv/powerlevel10k --btype=theme
+[WRN][1625305996.3491139412] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3491139412] -antigen-hook-antigen-bundle romkatv/powerlevel10k --btype=theme
+[TRA][1625305996.3492360115] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[TRA][1625305996.3492360115] Called antigen-bundle with romkatv/powerlevel10k --btype=theme BUNDLE
+[TRA][1625305996.3492360115] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[WRN][1625305996.3500521183] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3500521183] Updated meta: target -antigen-load-env mode repeat type replace called 7
+[WRN][1625305996.3501939774] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3501939774] Processing hooks: -antigen-load-env-cached
+[WRN][1625305996.3503530025] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3503530025] Replace hook: -antigen-load-env-cached dir /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k btype theme url https://github.com/romkatv/powerlevel10k.git loc / name romkatv/powerlevel10k make_local_clone true
+[WRN][1625305996.3505640030] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3505640030] Replaced hooked function.
+[LOG][1625305996.3506860733] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3506860733] Return from hook -antigen-load-env with 0
+[WRN][1625305996.3509349823] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1469
+[WRN][1625305996.3509349823] Updated meta: target -antigen-load-source mode repeat type replace called 7
+[WRN][1625305996.3510808945] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3510808945] Processing hooks: -antigen-load-source-cached
+[WRN][1625305996.3512089252] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1498
+[WRN][1625305996.3512089252] Replace hook: -antigen-load-source-cached /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[WRN][1625305996.3513519764] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.3513519764] Replaced hooked function.
+[LOG][1625305996.3514630795] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3514630795] Return from hook -antigen-load-source with 0
+[LOG][1625305996.3516418934] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.3516418934] Return from hook antigen-bundle with 0
+[WRN][1625305996.3517990112] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1739
+[WRN][1625305996.3517990112] Parallel install done PARALLEL
+[WRN][1625305996.3522560596] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305996.3522560596] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1625305996.3524179459] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305996.3524179459] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1625305996.3525609970] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305996.3525609970] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1625305996.3526980877] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1462
+[WRN][1625305996.3526980877] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1625305996.3528139591] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1484
+[WRN][1625305996.3528139591] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1625305996.3529350758] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1505
+[WRN][1625305996.3529350758] -antigen-hook-antigen-apply 
+[LOG][1625305996.3530609608] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1438
+[LOG][1625305996.3530609608] Called antigen-apply
+[TRA][1625305996.3531639576] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1439
+[TRA][1625305996.3531639576] Gonna create compdump file @ apply COMPDUMP
+[TRA][1625305996.3531639576] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/Users/chillmelon/.zshrc
+[LOG][1625305996.7085390091] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.7085390091] Return from hook antigen-apply with 0
+[WRN][1625305996.7088179588] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1509
+[WRN][1625305996.7088179588] Replaced hooked function.
+[WRN][1625305996.7089159489] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1513
+[WRN][1625305996.7089159489] Post hook: antigen-apply-lock
+[WRN][1625305996.7090730667] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1676
+[WRN][1625305996.7090730667] Freeing antigen-lock file at /Users/chillmelon/.antigen/.lock
+[WRN][1625305996.7109849453] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1513
+[WRN][1625305996.7109849453] Post hook: antigen-apply-cached
+[LOG][1625305996.7111148834] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1893
+[LOG][1625305996.7111148834] TRACE: /Users/chillmelon/.oh-my-zsh/antigen.zsh:1514 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1441 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1447 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1506 /Users/chillmelon/.oh-my-zsh/antigen.zsh:1441 /Users/chillmelon/.zshrc:34 zsh:0
+[LOG][1625305996.7113180161] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1787
+[LOG][1625305996.7113180161] Gonna generate cache for /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew /Users/chillmelon/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew/brew.plugin.zsh /Users/chillmelon/.antigen/bundles/zsh-users/zsh-syntax-highlighting// /Users/chillmelon/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh /Users/chillmelon/.antigen/bundles/zsh-users/zsh-autosuggestions// /Users/chillmelon/.antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh /Users/chillmelon/.antigen/bundles/zsh-users/zsh-completions// /Users/chillmelon/.antigen/bundles/zsh-users/zsh-completions///zsh-completions.plugin.zsh /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k// /Users/chillmelon/.antigen/bundles/romkatv/powerlevel10k///powerlevel10k.zsh-theme
+[LOG][1625305996.7244029045] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1844
+[LOG][1625305996.7244029045] CHECK_FILES /Users/chillmelon/.zshrc /Users/chillmelon/.zshrc
+[LOG][1625305996.7785708904] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.7785708904] Return from hook antigen-apply with 0
+[LOG][1625305996.7787840366] /Users/chillmelon/.oh-my-zsh/antigen.zsh:1518
+[LOG][1625305996.7787840366] Return from hook antigen with 0
