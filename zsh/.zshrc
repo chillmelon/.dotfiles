@@ -6,18 +6,15 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Essentials
+export TERM=xterm-256color
 export LANG=en_US.UTF-8
 export ZSH="$HOME/.oh-my-zsh"
 
 # Aliases
 alias vim="nvim"
-alias cat="bat"
 
 # Plugins
 source $ZSH/oh-my-zsh.sh
-
-# Autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # Antigen
 source $ZSH/antigen.zsh

@@ -6,7 +6,7 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
-  decorations: buttonless
+background_opacity: 1.0
 font:
   normal:
     family: "Iosevka Nerd Font"
@@ -14,11 +14,10 @@ font:
   bold:
     family: "Iosevka Nerd Font"
     style: Bold
-  size: 16
+  size: 14
   offset:
     x: 0
     y: 5
-  use_thin_strokes: true
 #colorscheme
 colors:
   primary:
