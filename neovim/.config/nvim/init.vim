@@ -18,5 +18,6 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 Plug 'glepnir/lspsaga.nvim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'lambdalisue/suda.vim'
 call plug#end()
 lua require("init")

@@ -12,6 +12,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Aliases
 alias vim="nvim"
+alias cat="bat"
 
 # Plugins
 source $ZSH/oh-my-zsh.sh
@@ -35,3 +36,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+alias luamake=/home/chiyu/language-server/lua-language-server/3rd/luamake/luamake
