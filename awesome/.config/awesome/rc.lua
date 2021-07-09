@@ -51,6 +51,8 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+beautiful.useless_gap = 5
+beautiful.font = "Iosevka Nerd Font 12"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -68,13 +70,13 @@ modkey = "Mod4"
 -- Table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
     awful.layout.suit.tile,
+    awful.layout.suit.spiral,
     --awful.layout.suit.floating,
-    --awful.layout.suit.tile.left,
-    --awful.layout.suit.tile.bottom,
+    awful.layout.suit.tile.left,
+    awful.layout.suit.tile.bottom,
     --awful.layout.suit.tile.top,
     --awful.layout.suit.fair,
     --awful.layout.suit.fair.horizontal,
-    --awful.layout.suit.spiral,
     --awful.layout.suit.spiral.dwindle,
     --awful.layout.suit.max,
     --awful.layout.suit.max.fullscreen,
@@ -115,7 +117,12 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock()
+local mytextclock = wibox.widget {
+  widget = wibox.widget.textclock,
+  format = "%a,%b %d,%l:%M %p ",
+  font = "Iosevka Nerd Font bold 10"
+}
+
 
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
@@ -207,6 +214,7 @@ awful.screen.connect_for_each_screen(function(s)
     s.mywibox = awful.wibar({ position = "top", screen = s, })
 
     -- Add widgets to the wibox
+    -- Comment out the following to disabled awesome status bar
     s.mywibox:setup {
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
@@ -219,7 +227,7 @@ awful.screen.connect_for_each_screen(function(s)
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
             APW,
-            mykeyboardlayout,
+            --mykeyboardlayout,
             wibox.widget.systray(),
             mytextclock,
             s.mylayoutbox,
@@ -320,13 +328,16 @@ globalkeys = gears.table.join(
               {description = "restore minimized", group = "client"}),
 
     -- Prompt
-    awful.key({ modkey },            "r",     function () awful.screen.focused().mypromptbox:run() end,
-              {description = "run prompt", group = "launcher"}),
+    --awful.key({ modkey },            "r",     function () awful.screen.focused().mypromptbox:run() end,
+              --{description = "run prompt", group = "launcher"}),
+    awful.key({ modkey },            "r",     function ()
+    awful.util.spawn("rofi -show run") end,
+              {description = "run rofi run", group = "launcher"}),
 
               -- RoFi
     awful.key({ modkey },            " ",     function ()
-    awful.util.spawn("rofi -show run") end,
-              {description = "run rofi", group = "launcher"}),
+    awful.util.spawn("rofi -show combi") end,
+              {description = "run rofi combi", group = "launcher"}),
 
     awful.key({ modkey }, "x",
               function ()
@@ -340,7 +351,14 @@ globalkeys = gears.table.join(
               {description = "lua execute prompt", group = "awesome"}),
     -- Menubar
     awful.key({ modkey }, "p", function() menubar.show() end,
-              {description = "show the menubar", group = "launcher"})
+              {description = "show the menubar", group = "launcher"}),
+    -- Screenshot
+    awful.key({ "Control", "Shift" }, "3", function ()
+    awful.util.spawn("scrot '%Y-%m-%d,%H:%m:%S' -e 'mv $f ~/Screenshots/") end,
+              {description = "run rofi combi", group = "launcher"}),
+    awful.key({ "Control", "Shift" }, "4", function ()
+    awful.util.spawn("scrot '%Y-%m-%d,%H:%m:%S' -s -e 'mv $f ~/Screenshots/'") end,
+              {description = "run rofi combi", group = "launcher"})
 )
 
 clientkeys = gears.table.join(
@@ -506,7 +524,12 @@ awful.rules.rules = {
     --{ rule_any = {type = { "normal", "dialog" }
       --}, properties = { titlebars_enabled = true }
     --},
-
+    { rule = { class = "Thunderbird" },
+      properties = { screen = 1, tag = "8" },
+    },
+    { rule = { class = "discord" },
+      properties = { screen = 1, tag = "9" },
+    },
     -- Set Firefox to always map on the tag named "2" on screen 1.
     -- { rule = { class = "Firefox" },
     --   properties = { screen = 1, tag = "2" } },
@@ -577,13 +600,8 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
--- Gaps
-beautiful.useless_gap = 5
-
--- DPI
-awful.screen.set_auto_dpi_enabled( true )
 
 -- Autostart
-awful.spawn.with_shell("fcitx5")
 awful.spawn.with_shell("picom -b --config ~/.config/picom/picom.conf")
+awful.spawn.with_shell("fcitx5")
 awful.spawn.with_shell("feh --bg-scale ~/Downloads/alaska.jpg")

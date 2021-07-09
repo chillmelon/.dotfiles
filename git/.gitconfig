@@ -1,3 +1,5 @@
 [user]
-  email = chiyuh1996@gmail.com
-  name = chillmelon
+	email = chiyuh1996@gmail.com
+	name = chillmelon
+[credential]
+	helper = store
