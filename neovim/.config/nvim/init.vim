@@ -16,9 +16,9 @@ Plug 'tpope/vim-repeat'
 Plug 'mattn/emmet-vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
-Plug 'glepnir/lspsaga.nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'lambdalisue/suda.vim'
 Plug 'majutsushi/tagbar'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 lua require("init")

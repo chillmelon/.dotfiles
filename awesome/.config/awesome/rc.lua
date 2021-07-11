@@ -3,6 +3,7 @@
 pcall(require, "luarocks.loader")
 
 local vicious = require("vicious")
+vicious.contrib = require"vicious.contrib"
 -- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
@@ -52,7 +53,7 @@ end
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 beautiful.useless_gap = 5
-beautiful.font = "Iosevka Nerd Font 12"
+beautiful.font = "Iosevka Nerd Font 13"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -122,6 +123,7 @@ local mytextclock = wibox.widget {
   format = "%a,%b %d,%l:%M %p ",
   font = "Iosevka Nerd Font bold 10"
 }
+
 
 
 -- Create a wibox for each screen and add it
@@ -219,7 +221,7 @@ awful.screen.connect_for_each_screen(function(s)
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
-            mylauncher,
+            --mylauncher,
             s.mytaglist,
             s.mypromptbox,
         },
@@ -354,10 +356,10 @@ globalkeys = gears.table.join(
               {description = "show the menubar", group = "launcher"}),
     -- Screenshot
     awful.key({ "Control", "Shift" }, "3", function ()
-    awful.util.spawn("scrot '%Y-%m-%d,%H:%m:%S' -e 'mv $f ~/Screenshots/") end,
+    awful.util.spawn("scrot '%Y-%m-%d,%H:%m:%S.png' -e 'mv $f ~/Screenshots/") end,
               {description = "run rofi combi", group = "launcher"}),
     awful.key({ "Control", "Shift" }, "4", function ()
-    awful.util.spawn("scrot '%Y-%m-%d,%H:%m:%S' -s -e 'mv $f ~/Screenshots/'") end,
+    awful.util.spawn("scrot '%Y-%m-%d,%H:%m:%S.png' -s -e 'mv $f ~/Screenshots/'") end,
               {description = "run rofi combi", group = "launcher"})
 )
 
@@ -604,4 +606,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Autostart
 awful.spawn.with_shell("picom -b --config ~/.config/picom/picom.conf")
 awful.spawn.with_shell("fcitx5")
-awful.spawn.with_shell("feh --bg-scale ~/Downloads/alaska.jpg")
+awful.spawn.with_shell("feh --bg-scale --randomize $HOME/wallpapers/landscape/")

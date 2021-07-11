@@ -4,3 +4,6 @@
 [submodule "zsh/.antigen/bundles/romkatv/powerlevel10k"]
 	path = zsh/.antigen/bundles/romkatv/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "awesome/.config/awesome/apw"]
+  path = awesome/.config/awesome/apw
+	url = https://github.com/mokasin/apw
