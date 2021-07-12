@@ -15,10 +15,10 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'mattn/emmet-vim'
 Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/completion-nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'lambdalisue/suda.vim'
 Plug 'majutsushi/tagbar'
 Plug 'vimwiki/vimwiki'
+Plug 'hrsh7th/nvim-compe'
 call plug#end()
 lua require("init")
