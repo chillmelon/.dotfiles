@@ -10,6 +10,8 @@ export TERM=xterm-256color
 export LANG=en_US.UTF-8
 export ZSH="$HOME/.oh-my-zsh"
 export PATH=$HOME/.config/composer/vendor/bin:$PATH
+export PATH=$HOME/.luarocks/bin:$PATH
+export PATH=$HOME/go/bin:$PATH
 
 # Aliases
 alias vim="nvim"

@@ -7,3 +7,9 @@
 [submodule "awesome/.config/awesome/apw"]
   path = awesome/.config/awesome/apw
 	url = https://github.com/mokasin/apw
+[submodule "awesome/.config/awesome/lain"]
+	path = awesome/.config/awesome/lain
+	url = https://github.com/lcpz/lain.git
+[submodule "awesome/.config/awesome/themes"]
+	path = awesome/.config/awesome/themes
+	url = https://github.com/serialoverflow/awesome-themes.git
