@@ -1,5 +1,3 @@
-vim.o.completeopt = "menuone,noselect"
-
 require'compe'.setup {
   enabled = true;
   autocomplete = true;
@@ -12,21 +10,14 @@ require'compe'.setup {
   max_abbr_width = 100;
   max_kind_width = 100;
   max_menu_width = 100;
-  documentation = false;
+  documentation = true;
 
   source = {
     path = true;
-    buffer = true;
-    calc = true;
-    vsnip = true;
     nvim_lsp = true;
-    nvim_lua = true;
-    spell = true;
-    tags = true;
-    snippets_nvim = true;
-    treesitter = true;
   };
 }
+
 local t = function(str)
   return vim.api.nvim_replace_termcodes(str, true, true, true)
 end
@@ -56,7 +47,6 @@ _G.s_tab_complete = function()
   if vim.fn.pumvisible() == 1 then
     return t "<C-p>"
   else
-    -- If <S-Tab> is not working in your terminal, change it to <C-h>
     return t "<S-Tab>"
   end
 end

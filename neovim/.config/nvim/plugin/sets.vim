@@ -7,6 +7,9 @@ set nowrap
 set scrolloff=8
 set autochdir
 set clipboard=unnamedplus
+set nocompatible
+filetype plugin on
+syntax on
 " theme
 colorscheme nord
 highlight Normal guibg=none
