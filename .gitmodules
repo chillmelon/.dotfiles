@@ -4,3 +4,12 @@
 [submodule "zsh/.antigen/bundles/romkatv/powerlevel10k"]
 	path = zsh/.antigen/bundles/romkatv/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "tmux/.tmux/plugins/nord-tmux"]
+	path = tmux/.tmux/plugins/nord-tmux
+	url = https://github.com/arcticicestudio/nord-tmux.git
+[submodule "tmux/.tmux/plugins/tmux-sensible"]
+	path = tmux/.tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible.git
+[submodule "tmux/.tmux/plugins/tpm"]
+	path = tmux/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
