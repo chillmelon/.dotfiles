@@ -16,7 +16,7 @@ highlight Normal guibg=none
 " tab
 set tabstop=2 softtabstop=2
 set shiftwidth=2
-set expandtab
+set noexpandtab
 set smartindent
 " history
 set noswapfile
@@ -33,4 +33,3 @@ set splitbelow splitright
 " others
 set signcolumn=yes
 set colorcolumn=80
-set termguicolors

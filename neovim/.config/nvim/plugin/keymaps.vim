@@ -12,8 +12,6 @@ nnoremap <M-k> :resize -3<CR>
 " move to the prev or next buffer using ctrl+[hl]
 nmap <C-H> :bprevious<CR>
 nmap <C-L> :bnext<CR>
-" go to definition
-nmap gd <Plug>(coc-definition)
 " move lines up and down using ctrl+[jk]
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
@@ -24,3 +22,7 @@ vnoremap <C-k> :m '<-2<CR>gv=gv
 " random useful ones
 nnoremap ; :
 cmap tb term tmux kill-session
+" fugitive
+nnoremap <leader>gs :G<CR>
+nnoremap <leader>gh :diffget //3<CR>
+nnoremap <leader>gf :diffget //2<CR>
