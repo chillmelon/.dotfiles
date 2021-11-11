@@ -5,3 +5,4 @@ undodir/
 .zcompdump*
 .DS_Store
 *.zwc
+package-lock.json
