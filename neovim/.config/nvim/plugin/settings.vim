@@ -5,7 +5,7 @@ set hidden
 set noerrorbells
 set nowrap
 set scrolloff=8
-set autochdir
+"set autochdir
 set clipboard=unnamedplus
 set nocompatible
 filetype plugin on
