@@ -5,10 +5,10 @@ nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 " resize window splits using alt+[hjkl]
-nnoremap <M-h> :vertical resize -3<CR>
-nnoremap <M-l> :vertical resize +3<CR>
-nnoremap <M-j> :resize +3<CR>
-nnoremap <M-k> :resize -3<CR>
+nnoremap <C-w><C-h> :vertical resize -3<CR>
+nnoremap <C-w><C-l> :vertical resize +3<CR>
+nnoremap <C-w><C-k> :resize +3<CR>
+nnoremap <C-w><C-j> :resize -3<CR>
 " move to the prev or next buffer using ctrl+[hl]
 nmap <C-H> :bprevious<CR>
 nmap <C-L> :bnext<CR>
