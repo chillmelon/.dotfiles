@@ -1,5 +1,4 @@
 " essentials
-set rnu
 set nu
 set hidden
 set noerrorbells
@@ -10,9 +9,7 @@ set clipboard=unnamedplus
 set nocompatible
 filetype plugin on
 syntax on
-" theme
-colorscheme nord
-highlight Normal guibg=none
+"highlight Normal guibg=none
 " tab
 set tabstop=2 softtabstop=2
 set shiftwidth=2
