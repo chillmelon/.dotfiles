@@ -45,3 +45,4 @@ call plug#end()
 colorscheme onedark
 lua require("init")
 set termguicolors
+let g:sql_type_default = 'pgsql'

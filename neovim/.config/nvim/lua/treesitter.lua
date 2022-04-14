@@ -9,6 +9,7 @@ require'nvim-treesitter.configs'.setup {
     "json",
     "yaml",
     "lua",
+    "python"
   },
   refactor = {
     highlight_definitions = { enable = true },

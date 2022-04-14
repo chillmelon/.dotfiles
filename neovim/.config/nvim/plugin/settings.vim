@@ -7,7 +7,7 @@ set scrolloff=8
 "set autochdir
 set clipboard=unnamedplus
 set nocompatible
-filetype plugin on
+filetype plugin indent on
 syntax on
 "highlight Normal guibg=none
 " tab
