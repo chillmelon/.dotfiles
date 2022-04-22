@@ -43,6 +43,6 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 call plug#end()
 
-colorscheme onedark
 set termguicolors
+colorscheme onedark
 let g:sql_type_default = 'pgsql'
