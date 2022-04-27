@@ -1,4 +1,3 @@
-let mapleader=" "
 " navigete window splits using leader[hjkl]
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
