@@ -5,6 +5,7 @@ vim.o.errorbells = false
 vim.o.scrolloff = 3
 vim.o.termguicolors = true
 vim.o.swapfile = false
+vim.o.clipboard = "unnamedplus"
 
 -- UI
 vim.o.number = true
