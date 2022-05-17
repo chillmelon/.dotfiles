@@ -27,4 +27,4 @@ vim.o.ignorecase = true
 vim.o.hlsearch = false
 
 -- Color
-vim.cmd([[colorscheme onedark]])
+vim.cmd[[colorscheme tokyonight]]

@@ -7,7 +7,7 @@ require('nerdtree')
 require('treesitter')
 require('lualine').setup {
   options = {
-    theme = 'onedark'
+    theme = 'tokyonight'
   }
 }
 
@@ -15,6 +15,7 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use {'neoclide/coc.nvim', branch = 'release'}
   use 'joshdick/onedark.vim'
+  use 'folke/tokyonight.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use 'preservim/nerdcommenter'
   use 'tpope/vim-fugitive'
