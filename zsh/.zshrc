@@ -7,14 +7,17 @@ fi
 
 # Essentials
 export LANG=en_US.UTF-8
-export ZSH="$HOME/.oh-my-zsh"
+#export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.zsh"
+export SYSTEM_VERSION_COMPAT=0
 
 # Aliases
 alias vim="nvim"
 alias cat="bat"
+alias g++="g++ -std=c++11"
 
 # Plugins
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # Autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
@@ -22,14 +25,14 @@ source $ZSH/oh-my-zsh.sh
 # Antigen
 source $ZSH/antigen.zsh
 
+antigen use oh-my-zsh
 antigen bundle git
 antigen bundle pip
 antigen bundle brew
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
-antigen theme romkatv/powerlevel10k
-
+antigen bundle romkatv/powerlevel10k
 antigen apply
 
 export NVM_DIR="$HOME/.nvm"
@@ -38,3 +41,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
