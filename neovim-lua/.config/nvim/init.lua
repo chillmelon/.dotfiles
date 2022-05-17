@@ -7,7 +7,7 @@ require('nerdtree')
 require('treesitter')
 require('lualine').setup {
   options = {
-    theme = 'nord'
+    theme = 'onedark'
   }
 }
 
@@ -20,6 +20,7 @@ return require('packer').startup(function()
   use 'tpope/vim-fugitive'
   use 'tpope/vim-surround'
   use 'tpope/vim-repeat'
+  use 'jiangmiao/auto-pairs'
   use 'ryanoasis/vim-devicons'
   use {
     'scrooloose/nerdtree',
