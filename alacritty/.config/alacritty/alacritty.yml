@@ -16,7 +16,7 @@ font:
   bold:
     family: "Hack Nerd Font"
     style: Bold
-  size: 16
+  size: 22
   offset:
     x: 0
     y: 5
