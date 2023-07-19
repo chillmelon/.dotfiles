@@ -17,7 +17,7 @@ vim.o.splitbelow = true
 vim.o.splitright = true
 
 -- Indention
---vim.o.expandtab = true
+vim.o.expandtab = true
 vim.o.tabstop = 2
 vim.o.smartindent = true
 vim.o.shiftwidth = 2

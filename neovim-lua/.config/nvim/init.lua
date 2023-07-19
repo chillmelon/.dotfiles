@@ -10,18 +10,23 @@ require('lualine').setup {
     theme = 'tokyonight'
   }
 }
+require('tidal').setup{}
+require('openframeworks')
 
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use {'neoclide/coc.nvim', branch = 'release'}
   use 'joshdick/onedark.vim'
   use 'folke/tokyonight.nvim'
-  use 'nvim-treesitter/nvim-treesitter'
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate'
+	}
   use 'preservim/nerdcommenter'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-surround'
   use 'tpope/vim-repeat'
-  use 'jiangmiao/auto-pairs'
+  --use 'jiangmiao/auto-pairs'
   use 'ryanoasis/vim-devicons'
   use {
     'scrooloose/nerdtree',
@@ -40,5 +45,11 @@ return require('packer').startup(function()
     'nvim-telescope/telescope-fzf-native.nvim',
     run = 'make'
   }
+  use 'slim-template/vim-slim'
+  use 'prisma/vim-prisma'
+  use 'grddavies/tidal.nvim'
+  use 'google/vim-maktaba'
+  use 'google/vim-codefmt'
+  use 'google/vim-glaive'
 end)
 
