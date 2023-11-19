@@ -21,6 +21,7 @@ alias vim="nvim"
 alias cat="bat"
 alias g++="g++ -std=c++11"
 alias python="python3"
+alias loaf="/Applications/loaf.app/Contents/MacOS/loaf"
 
 # Plugins
 #source $ZSH/oh-my-zsh.sh

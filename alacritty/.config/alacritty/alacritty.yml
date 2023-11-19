@@ -22,7 +22,7 @@ font:
   italic:
     family: "Hack Nerd Font"
     style: Italic
-  size: 20
+  size: 18
   offset:
     x: 1
     y: 3
