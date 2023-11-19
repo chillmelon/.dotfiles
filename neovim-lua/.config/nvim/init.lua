@@ -1,6 +1,5 @@
 require('basic')
 require('telescope-config')
-require('coc-config')
 require('keymaps')
 require('netrw')
 require('nerdtree')
@@ -15,12 +14,12 @@ require('openframeworks')
 
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
-  use {'neoclide/coc.nvim', branch = 'release'}
   use 'joshdick/onedark.vim'
   use 'folke/tokyonight.nvim'
+
 	use {
 		'nvim-treesitter/nvim-treesitter',
-		run = ':TSUpdate'
+    run = ':TSUpdate'
 	}
   use 'preservim/nerdcommenter'
   use 'tpope/vim-fugitive'

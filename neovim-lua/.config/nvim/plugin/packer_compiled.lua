@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/chill/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/chill/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/chill/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/chill/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/chill/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/Users/chill/.cache/nvim/packer_hererocks/2.1.1696795921/share/lua/5.1/?.lua;/Users/chill/.cache/nvim/packer_hererocks/2.1.1696795921/share/lua/5.1/?/init.lua;/Users/chill/.cache/nvim/packer_hererocks/2.1.1696795921/lib/luarocks/rocks-5.1/?.lua;/Users/chill/.cache/nvim/packer_hererocks/2.1.1696795921/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/chill/.cache/nvim/packer_hererocks/2.1.1696795921/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -74,11 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "/Users/chill/.local/share/nvim/site/pack/packer/start/coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/chill/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -135,10 +130,20 @@ _G.packer_plugins = {
     path = "/Users/chill/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tidal.nvim"] = {
+    loaded = true,
+    path = "/Users/chill/.local/share/nvim/site/pack/packer/start/tidal.nvim",
+    url = "https://github.com/grddavies/tidal.nvim"
+  },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/Users/chill/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-codefmt"] = {
+    loaded = true,
+    path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-codefmt",
+    url = "https://github.com/google/vim-codefmt"
   },
   ["vim-devicons"] = {
     loaded = true,
@@ -150,6 +155,16 @@ _G.packer_plugins = {
     path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-glaive"] = {
+    loaded = true,
+    path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-glaive",
+    url = "https://github.com/google/vim-glaive"
+  },
+  ["vim-maktaba"] = {
+    loaded = true,
+    path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-maktaba",
+    url = "https://github.com/google/vim-maktaba"
+  },
   ["vim-prisma"] = {
     loaded = true,
     path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-prisma",
@@ -160,20 +175,10 @@ _G.packer_plugins = {
     path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-repeat",
     url = "https://github.com/tpope/vim-repeat"
   },
-  ["vim-slim"] = {
-    loaded = true,
-    path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-slim",
-    url = "https://github.com/slim-template/vim-slim"
-  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
-  },
-  ["vim-tidal"] = {
-    loaded = true,
-    path = "/Users/chill/.local/share/nvim/site/pack/packer/start/vim-tidal",
-    url = "https://github.com/tidalcycles/vim-tidal"
   }
 }
 
