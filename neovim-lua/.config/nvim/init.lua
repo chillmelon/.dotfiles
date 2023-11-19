@@ -32,20 +32,26 @@ require("lazy").setup({
   'tpope/vim-repeat',
 
   -- LSP
-  {'neoclide/coc.nvim', branch = 'release'},
-  --'williamboman/mason.nvim',
-  --'williamboman/mason-lspconfig.nvim',
-  --'neovim/nvim-lspconfig',
-  --'folke/neodev.nvim',
-  --'onsails/lspkind.nvim',
-  --'hrsh7th/cmp-nvim-lsp',
-  --'hrsh7th/nvim-cmp',
-  --'hrsh7th/cmp-vsnip',
-  --'hrsh7th/vim-vsnip',
+  --{'neoclide/coc.nvim', branch = 'release'},
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+  'neovim/nvim-lspconfig',
+  'folke/neodev.nvim',
+  'onsails/lspkind.nvim',
+  'hrsh7th/cmp-nvim-lsp',
+  'hrsh7th/nvim-cmp',
+  'hrsh7th/cmp-vsnip',
+  'hrsh7th/vim-vsnip',
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    opts = {} -- this is equalent to setup({}) function
+  },
 
   -- Useful
   {
-    'nvim-telescope/telescope.nvim', tag = '0.1.4',
+    'nvim-telescope/telescope.nvim',
+    tag = '0.1.4',
     dependencies = { 'nvim-lua/plenary.nvim' },
   },
   {
@@ -55,15 +61,15 @@ require("lazy").setup({
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
-    config = function () 
+    config = function()
       local configs = require("nvim-treesitter.configs")
 
       configs.setup({
-          ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
-          sync_install = false,
-          highlight = { enable = false },
-          indent = { enable = true },  
-        })
+        ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
+        sync_install = false,
+        highlight = { enable = false },
+        indent = { enable = true },
+      })
     end,
   },
 
@@ -75,20 +81,21 @@ require('basic')
 require('keymaps')
 require('nerdtree')
 require('telescope-config')
-require('coc-config')
---require("mason").setup()
---require('mason-lspconfig').setup {
-  --ensure_installed = {
-    --'lua_ls',
-    --'eslint',
-    --'tsserver',
-    --'intelephense',
-    --'pyright',
-    --'tailwindcss',
-  --},
---}
---require('lspkind-config')
---require('cmp-config')
+--require('coc-config')
+require("mason").setup()
+require('mason-lspconfig').setup {
+  ensure_installed = {
+    'lua_ls',
+    'eslint',
+    'tsserver',
+    'intelephense',
+    'pyright',
+    'tailwindcss',
+  },
+}
+require('lsp-config-config')
+require('lspkind-config')
+require('cmp-config')
 
-require('tidal').setup{}
+require('tidal').setup {}
 require('openframeworks')
