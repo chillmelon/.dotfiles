@@ -29,4 +29,5 @@ vim.api.nvim_set_keymap('n', '<leader>gf', ':diffget //2<CR>', { noremap = true 
 
 -- Explorer
 vim.api.nvim_set_keymap('n', '<C-n>', ':NERDTreeToggle<CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<C-f>', ':NERDTreeFind<CR>', { noremap = true })
 --vim.api.nvim_set_keymap('n', '<C-n>', ':Lexploer<CR>', { noremap = true })

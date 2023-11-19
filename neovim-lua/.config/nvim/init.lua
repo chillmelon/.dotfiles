@@ -45,7 +45,6 @@ return require('packer').startup(function()
     'nvim-telescope/telescope-fzf-native.nvim',
     run = 'make'
   }
-  use 'slim-template/vim-slim'
   use 'prisma/vim-prisma'
   use 'grddavies/tidal.nvim'
   use 'google/vim-maktaba'

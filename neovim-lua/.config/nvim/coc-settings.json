@@ -22,5 +22,6 @@
         }
       }
     }
-  }
+  },
+  "tailwindCSS.custom.serverPath": "/path/to/.nvm/versions/node/v18.15.0/bin/tailwindcss-language-server"
 }

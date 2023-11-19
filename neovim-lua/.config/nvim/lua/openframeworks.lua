@@ -9,10 +9,10 @@ local function set_makeprg()
 end
 
 -- Set the 'makeprg' option on BufRead and BufNewFile events for *.cpp files
-vim.cmd([[
-    augroup cpp_makeprg
-        autocmd!
-        autocmd BufRead,BufNewFile *.cpp lua set_makeprg()
-    augroup END
-]])
+--vim.cmd([[
+    --augroup cpp_makeprg
+        --autocmd!
+        --autocmd BufRead,BufNewFile *.cpp lua set_makeprg()
+    --augroup END
+--]])
 
