@@ -1,5 +1,4 @@
 -- Important
-vim.g.mapleader = " "
 vim.o.mouse = 'a'
 vim.o.errorbells = false
 vim.o.scrolloff = 3
