@@ -16,11 +16,16 @@ font:
   bold:
     family: "Hack Nerd Font"
     style: Bold
-  size: 16
+  bold_italic:
+    family: "Hack Nerd Font"
+    style: Bold Italic
+  italic:
+    family: "Hack Nerd Font"
+    style: Italic
+  size: 18
   offset:
-    x: 0
-    y: 5
-  use_thin_strokes: true
+    x: 1
+    y: 3
 # System
 hints:
   enabled:
@@ -46,13 +51,13 @@ colors:
   selection:
     text: CellForeground
     background: '#4c566a'
+  bar:
+    background: '#434c5e'
+    foreground: '#d8dee9'
   search:
     matches:
       foreground: CellBackground
       background: '#88c0d0'
-    bar:
-      background: '#434c5e'
-      foreground: '#d8dee9'
   normal:
     black: '#3b4252'
     red: '#bf616a'
@@ -157,3 +162,5 @@ key_bindings:
   - { key: Key6,      mods: Alt|Shift, chars: "\x1b^"                       } # Alt + ^
   - { key: Backslash, mods: Alt,       chars: "\x1b\\"                      } # Alt + \
   - { key: Backslash, mods: Alt|Shift, chars: "\x1b|"                       } # Alt + |
+  - { key: Return,    mods: Shift,     chars: "\x1b[13;2u"                     }
+  - { key: Return,    mods: Control,   chars: "\x1b[13;5u"                     }
