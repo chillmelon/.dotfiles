@@ -1,10 +1,3 @@
--- require('lualine').setup {
---   options = {
---     theme = 'tokyonight'
---   }
--- }
--- require('tidal').setup{}
--- require('openframeworks')
 vim.g.mapleader = " "
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -31,23 +24,26 @@ require("lazy").setup({
   },
 
   -- Essential
-  {
-    'scrooloose/nerdtree',
-    on = 'NERDTreeToggle',
-  },
+  'scrooloose/nerdtree',
+  'ryanoasis/vim-devicons',
   'preservim/nerdcommenter',
   'tpope/vim-fugitive',
   'tpope/vim-surround',
   'tpope/vim-repeat',
 
-  -- Useful
-  'williamboman/mason.nvim',
-  'williamboman/mason-lspconfig.nvim',
-  'neovim/nvim-lspconfig',
-  'folke/neodev.nvim',
-  'onsails/lspkind.nvim',
-  'hrsh7th/nvim-cmp',
+  -- LSP
+  {'neoclide/coc.nvim', branch = 'release'},
+  --'williamboman/mason.nvim',
+  --'williamboman/mason-lspconfig.nvim',
+  --'neovim/nvim-lspconfig',
+  --'folke/neodev.nvim',
+  --'onsails/lspkind.nvim',
+  --'hrsh7th/cmp-nvim-lsp',
+  --'hrsh7th/nvim-cmp',
+  --'hrsh7th/cmp-vsnip',
+  --'hrsh7th/vim-vsnip',
 
+  -- Useful
   {
     'nvim-telescope/telescope.nvim', tag = '0.1.4',
     dependencies = { 'nvim-lua/plenary.nvim' },
@@ -72,21 +68,27 @@ require("lazy").setup({
   },
 
   -- Fancy
+  'grddavies/tidal.nvim',
 })
 
 require('basic')
 require('keymaps')
 require('nerdtree')
 require('telescope-config')
-require("mason").setup()
-require('mason-lspconfig').setup {
-  ensure_installed = {
-    'lua_ls',
-    'eslint',
-    'tsserver',
-    'intelephense',
-    'pyright',
-    'tailwindcss',
-  },
-}
-require('lspkind-config')
+require('coc-config')
+--require("mason").setup()
+--require('mason-lspconfig').setup {
+  --ensure_installed = {
+    --'lua_ls',
+    --'eslint',
+    --'tsserver',
+    --'intelephense',
+    --'pyright',
+    --'tailwindcss',
+  --},
+--}
+--require('lspkind-config')
+--require('cmp-config')
+
+require('tidal').setup{}
+require('openframeworks')
