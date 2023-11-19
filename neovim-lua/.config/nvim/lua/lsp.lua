@@ -21,12 +21,33 @@ end
 
 local lspconfig = require('lspconfig')
 
-lspconfig.pyright.setup {
-  on_attach = on_attach,
-}
-lspconfig.tsserver.setup {
-  on_attach = on_attach,
-}
-lspconfig.lua_ls.setup {
-  on_attach = on_attach,
-}
+require("mason-lspconfig").setup_handlers({
+  function (server_name)
+    require("lspconfig")[server_name].setup {
+      on_attach = on_attach,
+    }
+  end,
+  -- Next, you can provide targeted overrides for specific servers.
+  ["lua_ls"] = function ()
+    lspconfig.lua_ls.setup {
+      settings = {
+        Lua = {
+          diagnostics = {
+            globals = { "vim" }
+          }
+        }
+    }
+  }
+  end
+--   ["clangd"] = function ()
+--     lspconfig.clangd.setup {
+--       cmd = {
+--         "clangd",
+--         -- "--header-insertion=never",
+--         "--query-driver=/opt/homebrew/opt/llvm/bin/clang++",
+--         -- "--all-scopes-completion",
+--         -- "--completion-style=detailed",
+--       }
+--     }
+--   end
+})
