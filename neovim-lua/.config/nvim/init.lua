@@ -1,4 +1,7 @@
 vim.g.mapleader = " "
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.opt.termguicolors = true
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -24,28 +27,34 @@ require("lazy").setup({
   },
 
   -- Essential
-  'scrooloose/nerdtree',
-  'ryanoasis/vim-devicons',
+  --'ryanoasis/vim-devicons',
+  'nvim-tree/nvim-tree.lua',
+  'nvim-tree/nvim-web-devicons',
+  --'scrooloose/nerdtree',
   'preservim/nerdcommenter',
   'tpope/vim-fugitive',
   'tpope/vim-surround',
   'tpope/vim-repeat',
+  'windwp/nvim-autopairs',
 
   -- LSP
-  --{'neoclide/coc.nvim', branch = 'release'},
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
   'neovim/nvim-lspconfig',
   'folke/neodev.nvim',
-  'onsails/lspkind.nvim',
+  --'onsails/lspkind.nvim',
+
+  -- Completion
   'hrsh7th/cmp-nvim-lsp',
   'hrsh7th/nvim-cmp',
   'hrsh7th/cmp-vsnip',
   'hrsh7th/vim-vsnip',
   {
-    'windwp/nvim-autopairs',
-    event = "InsertEnter",
-    opts = {} -- this is equalent to setup({}) function
+    "L3MON4D3/LuaSnip",
+    -- follow latest release.
+    version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+    -- install jsregexp (optional!).
+    build = "make install_jsregexp"
   },
 
   -- Useful
@@ -65,9 +74,9 @@ require("lazy").setup({
       local configs = require("nvim-treesitter.configs")
 
       configs.setup({
-        ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
+        ensure_installed = { "lua", "vim", "vimdoc", "query", "javascript", "typescript", "html" },
         sync_install = false,
-        highlight = { enable = false },
+        highlight = { enable = true },
         indent = { enable = true },
       })
     end,
@@ -79,9 +88,10 @@ require("lazy").setup({
 
 require('basic')
 require('keymaps')
-require('nerdtree')
+--require('nerdtree')
+require('nvim-tree').setup()
 require('telescope-config')
---require('coc-config')
+require('neodev').setup()
 require("mason").setup()
 require('mason-lspconfig').setup {
   ensure_installed = {
@@ -93,9 +103,9 @@ require('mason-lspconfig').setup {
     'tailwindcss',
   },
 }
-require('lsp-config-config')
-require('lspkind-config')
+require('lsp')
 require('cmp-config')
+require("nvim-autopairs").setup()
 
 require('tidal').setup {}
 require('openframeworks')
