@@ -1,53 +1,101 @@
-require('basic')
-require('telescope-config')
-require('keymaps')
-require('netrw')
-require('nerdtree')
-require('treesitter')
-require('lualine').setup {
-  options = {
-    theme = 'tokyonight'
-  }
-}
-require('tidal').setup{}
-require('openframeworks')
+vim.g.mapleader = " "
 
-return require('packer').startup(function()
-  use 'wbthomason/packer.nvim'
-  use 'joshdick/onedark.vim'
-  use 'folke/tokyonight.nvim'
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
 
-	use {
-		'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate'
-	}
-  use 'preservim/nerdcommenter'
-  use 'tpope/vim-fugitive'
-  use 'tpope/vim-surround'
-  use 'tpope/vim-repeat'
-  --use 'jiangmiao/auto-pairs'
-  use 'ryanoasis/vim-devicons'
-  use {
-    'scrooloose/nerdtree',
-    on = 'NERDTreeToggle'
-  }
-  use 'JoosepAlviste/nvim-ts-context-commentstring'
-  use {
-    'nvim-lualine/lualine.nvim',
-    requires = {'kyazdani42/nvim-web-devicons', opt = true}
-  }
-  use {
+require("lazy").setup({
+  -- Color Scheme
+  'joshdick/onedark.vim',
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+
+  -- Essential
+  'scrooloose/nerdtree',
+  'ryanoasis/vim-devicons',
+  'preservim/nerdcommenter',
+  'tpope/vim-fugitive',
+  'tpope/vim-surround',
+  'tpope/vim-repeat',
+
+  -- LSP
+  --{'neoclide/coc.nvim', branch = 'release'},
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+  'neovim/nvim-lspconfig',
+  'folke/neodev.nvim',
+  'onsails/lspkind.nvim',
+  'hrsh7th/cmp-nvim-lsp',
+  'hrsh7th/nvim-cmp',
+  'hrsh7th/cmp-vsnip',
+  'hrsh7th/vim-vsnip',
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    opts = {} -- this is equalent to setup({}) function
+  },
+
+  -- Useful
+  {
     'nvim-telescope/telescope.nvim',
-    requires = { {'nvim-lua/plenary.nvim'} }
-  }
-  use {
+    tag = '0.1.4',
+    dependencies = { 'nvim-lua/plenary.nvim' },
+  },
+  {
     'nvim-telescope/telescope-fzf-native.nvim',
-    run = 'make'
-  }
-  use 'prisma/vim-prisma'
-  use 'grddavies/tidal.nvim'
-  use 'google/vim-maktaba'
-  use 'google/vim-codefmt'
-  use 'google/vim-glaive'
-end)
+    build = 'make',
+  },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    config = function()
+      local configs = require("nvim-treesitter.configs")
 
+      configs.setup({
+        ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html" },
+        sync_install = false,
+        highlight = { enable = false },
+        indent = { enable = true },
+      })
+    end,
+  },
+
+  -- Fancy
+  'grddavies/tidal.nvim',
+})
+
+require('basic')
+require('keymaps')
+require('nerdtree')
+require('telescope-config')
+--require('coc-config')
+require("mason").setup()
+require('mason-lspconfig').setup {
+  ensure_installed = {
+    'lua_ls',
+    'eslint',
+    'tsserver',
+    'intelephense',
+    'pyright',
+    'tailwindcss',
+  },
+}
+require('lsp-config-config')
+require('lspkind-config')
+require('cmp-config')
+
+require('tidal').setup {}
+require('openframeworks')
