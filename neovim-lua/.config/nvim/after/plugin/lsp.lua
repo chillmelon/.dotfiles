@@ -12,6 +12,13 @@ require('mason-lspconfig').setup({
 
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)
 
+vim.diagnostic.config({
+  virtual_text = false
+})
+-- Show line diagnostics automatically in hover window
+vim.o.updatetime = 250
+vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
+
 local on_attach = function(_, _)
   vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
   vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
@@ -46,15 +53,4 @@ require("mason-lspconfig").setup_handlers({
     }
   }
   end
---   ["clangd"] = function ()
---     lspconfig.clangd.setup {
---       cmd = {
---         "clangd",
---         -- "--header-insertion=never",
---         "--query-driver=/opt/homebrew/opt/llvm/bin/clang++",
---         -- "--all-scopes-completion",
---         -- "--completion-style=detailed",
---       }
---     }
---   end
 })
