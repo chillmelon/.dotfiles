@@ -1,6 +1,13 @@
 require('mason').setup()
 require('mason-lspconfig').setup({
-  ensure_installed = { 'tsserver', 'pyright', 'lua_ls' }
+  ensure_installed = {
+    'lua_ls',
+    'eslint',
+    'tsserver',
+    'intelephense',
+    'pyright',
+    'tailwindcss',
+  },
 })
 
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)

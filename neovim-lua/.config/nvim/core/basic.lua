@@ -24,6 +24,3 @@ vim.o.shiftwidth = 2
 -- Search
 vim.o.ignorecase = true
 vim.o.hlsearch = false
-
--- Color
-vim.cmd[[colorscheme tokyonight]]
