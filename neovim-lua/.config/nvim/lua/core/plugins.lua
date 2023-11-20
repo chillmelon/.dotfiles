@@ -41,6 +41,8 @@ local plugins = {
     -- install jsregexp (optional!).
     build = "make install_jsregexp"
   },
+  'saadparwaiz1/cmp_luasnip',
+  "rafamadriz/friendly-snippets",
 
   -- Useful
   {

@@ -1,5 +1,6 @@
-local status, cmp = pcall(require, 'cmp')
-if (not status) then return end
+local cmp = require("cmp")
+
+require("luasnip.loaders.from_vscode").lazy_load()
 
 local cmp_autopairs = require('nvim-autopairs.completion.cmp')
 -- If you want insert `(` after select function or method item
@@ -8,21 +9,8 @@ cmp.event:on(
   cmp_autopairs.on_confirm_done()
 )
 
-cmp.setup({
 
-  snippet = {
-    -- REQUIRED - you must specify a snippet engine
-    expand = function(args)
-      --vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
-      require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
-      -- require('snippy').expand_snippet(args.body) -- For `snippy` users.
-      -- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
-    end,
-  },
-  window = {
-    completion = cmp.config.window.bordered(),
-    documentation = cmp.config.window.bordered(),
-  },
+cmp.setup({
   mapping = cmp.mapping.preset.insert({
     ['<C-b>'] = cmp.mapping.scroll_docs(-4),
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
@@ -30,11 +18,16 @@ cmp.setup({
     ['<C-e>'] = cmp.mapping.abort(),
     ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
   }),
+  snippet = {
+    expand = function(args)
+      require('luasnip').lsp_expand(args.body)
+    end,
+  },
   sources = cmp.config.sources({
-    { name = 'nvim_lsp', keyword_length = 8 },
-    { name = 'luasnip' }, -- For luasnip users.
-    { name = 'path' },
-    { name = 'buffer', keyword_length = 5 },
+    { name = 'nvim_lsp' },
+    { name = 'luasnip' },
+  }, {
+    { name = 'buffer' },
   }),
 })
 
