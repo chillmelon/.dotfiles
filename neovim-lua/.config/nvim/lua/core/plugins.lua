@@ -27,15 +27,17 @@ local plugins = {
   'williamboman/mason-lspconfig.nvim',
   'neovim/nvim-lspconfig',
   'folke/neodev.nvim',
-  'onsails/lspkind.nvim',
 
   -- Completion
-  'hrsh7th/cmp-nvim-lsp',
   'hrsh7th/nvim-cmp',
-  'hrsh7th/cmp-vsnip',
-  'hrsh7th/vim-vsnip',
+  --'hrsh7th/vim-vsnip',
+  --'hrsh7th/cmp-vsnip',
+  'hrsh7th/cmp-nvim-lsp',
+  'hrsh7th/cmp-buffer',
+  'hrsh7th/cmp-path',
   {
     "L3MON4D3/LuaSnip",
+    dependencies = { "rafamadriz/friendly-snippets" },
     -- follow latest release.
     version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
     -- install jsregexp (optional!).
@@ -69,8 +71,9 @@ local plugins = {
     end,
   },
 
-  -- Fancy
+  -- Other
   'grddavies/tidal.nvim',
+  'prisma/vim-prisma',
 }
 
 local opt = {}

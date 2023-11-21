@@ -30,3 +30,4 @@ vim.api.nvim_set_keymap('n', '<leader>gf', ':diffget //2<CR>', { noremap = true 
 -- Explorer
 vim.api.nvim_set_keymap('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<C-f>', ':NvimTreeFindFile<CR>', { noremap = true })
+
