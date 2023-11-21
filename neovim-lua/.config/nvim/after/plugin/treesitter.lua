@@ -9,6 +9,10 @@ ts.setup({
     enable = true,
     disable = {},
   },
+  modules = {},
+  auto_install = true,
+  sync_install = false,
+  ignore_install = {},
   ensure_installed = {
     'php',
     'javascript',
