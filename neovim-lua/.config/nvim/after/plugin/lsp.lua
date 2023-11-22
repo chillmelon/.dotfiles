@@ -7,6 +7,7 @@ require('mason-lspconfig').setup({
     'intelephense',
     'pyright',
     'tailwindcss',
+    'rust_analyzer',
   },
 })
 
@@ -54,10 +55,10 @@ require("mason-lspconfig").setup_handlers({
       settings = {
         Lua = {
           diagnostics = {
-            globals = { "vim" }
-          }
-        }
-      }
+            globals = { "vim" },
+          },
+        },
+      },
     }
-  end
+  end,
 })

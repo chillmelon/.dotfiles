@@ -23,28 +23,33 @@ return {{
   'windwp/nvim-autopairs',
 
   -- LSP
-  'williamboman/mason.nvim',
-  'williamboman/mason-lspconfig.nvim',
-  'neovim/nvim-lspconfig',
+  {
+    'neovim/nvim-lspconfig',
+    dependencies = {
+      'williamboman/mason.nvim',
+      'williamboman/mason-lspconfig.nvim',
+    }
+  },
   'folke/neodev.nvim',
 
   -- Completion
-  'hrsh7th/nvim-cmp',
-  --'hrsh7th/vim-vsnip',
-  --'hrsh7th/cmp-vsnip',
-  'hrsh7th/cmp-nvim-lsp',
-  'hrsh7th/cmp-buffer',
-  'hrsh7th/cmp-path',
   {
-    "L3MON4D3/LuaSnip",
-    dependencies = { "rafamadriz/friendly-snippets" },
-    -- follow latest release.
-    version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
-    -- install jsregexp (optional!).
-    build = "make install_jsregexp"
+    'hrsh7th/nvim-cmp',
+    dependencies = {
+      'hrsh7th/cmp-nvim-lsp',
+      'hrsh7th/cmp-buffer',
+      'hrsh7th/cmp-path',
+      'saadparwaiz1/cmp_luasnip',
+      {
+        "L3MON4D3/LuaSnip",
+        dependencies = { "rafamadriz/friendly-snippets" },
+        -- follow latest release.
+        version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+        -- install jsregexp (optional!).
+        build = "make install_jsregexp"
+      },
+    },
   },
-  'saadparwaiz1/cmp_luasnip',
-  "rafamadriz/friendly-snippets",
 
   -- Useful
   {
