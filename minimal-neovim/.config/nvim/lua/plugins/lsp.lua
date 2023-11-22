@@ -40,6 +40,13 @@ return {
           ['<C-d>'] = cmp.mapping.scroll_docs(4),
           ['<C-f>'] = cmp_action.luasnip_jump_forward(),
           ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+          ["<C-n>"] = cmp.mapping.select_next_item { behavior = cmp.SelectBehavior.Insert },
+          ["<C-p>"] = cmp.mapping.select_prev_item { behavior = cmp.SelectBehavior.Insert },
+          ['<C-e>'] = cmp.mapping.abort(),
+          ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+          -- Super Tab
+          ['<Tab>'] = cmp_action.luasnip_supertab(),
+          ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
         })
       })
     end
