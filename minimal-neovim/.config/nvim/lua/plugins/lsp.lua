@@ -19,6 +19,9 @@ return {
   -- Autocompletion
   {
     'hrsh7th/nvim-cmp',
+    { 'hrsh7th/cmp-buffer' },
+    { 'hrsh7th/cmp-path' },
+    { 'saadparwaiz1/cmp_luasnip' },
     event = 'InsertEnter',
     dependencies = {
       { 'L3MON4D3/LuaSnip' },
@@ -97,6 +100,7 @@ return {
           'intelephense',
           'dockerls',
           'jsonls',
+          'yamlls',
         },
         handlers = {
           lsp_zero.default_setup,
