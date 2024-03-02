@@ -7,7 +7,6 @@ fi
 
 # Essentials
 export LANG=en_US.UTF-8
-# export ZSH="$HOME/.oh-my-zsh"
 export ZSH="$HOME/.zsh"
 export SYSTEM_VERSION_COMPAT=0
 
@@ -23,14 +22,11 @@ alias g++="g++ -std=c++11"
 alias python="python3"
 alias loaf="/Applications/loaf.app/Contents/MacOS/loaf"
 
-# Plugins
-#source $ZSH/oh-my-zsh.sh
-
 # Autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # Antigen
-source $ZSH/antigen.zsh
+source $HOME/.antigen.zsh
 
 antigen use oh-my-zsh
 antigen bundle git
@@ -38,7 +34,7 @@ antigen bundle pip
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
-antigen theme romkatv/powerlevel10k
+antigen bundle romkatv/powerlevel10k
 antigen apply
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -49,17 +45,18 @@ antigen apply
 
 export PATH="$HOME/Library/Python/3.11/bin:$PATH"
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/chill/code/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chill/code/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/chill/code/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chill/code/google-cloud-sdk/completion.zsh.inc'; fi
-source ${HOME}/.ghcup/env
-
-# macport
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export MANPATH=/opt/local/share/man:$MANPATH
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
+
+export PATH="/Users/chill/.local/bin:$PATH"
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+export PATH="/usr/local/opt/php@8.1/bin:$PATH"
+export PATH="/usr/local/opt/php@8.1/sbin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/chill/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chill/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/chill/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chill/Downloads/google-cloud-sdk/completion.zsh.inc'; fi

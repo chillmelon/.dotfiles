@@ -29,5 +29,5 @@ vim.o.shiftwidth = 2
 vim.o.ignorecase = true
 vim.o.hlsearch = false
 
-vim.g.python3_host_prog = '/opt/local/bin/python3'
+vim.g.python3_host_prog = '/usr/local/bin/python3'
 vim.g.poetv_auto_activate = 1
