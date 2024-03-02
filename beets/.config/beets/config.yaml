@@ -1,0 +1,34 @@
+directory: ~/Music/Crates
+plugins: the fetchart embedart scrub lastgenre discogs fromfilename bandcamp
+
+import:
+  copy: no
+  move: yes
+  duplicate_action: ask
+  languages: en de jp
+
+ui:
+  color: yes
+
+per_disc_numbering: yes
+
+threaded: yes    
+
+paths:
+  default: $albumartist/[$year] $album%aunique{}/$track $title
+  singleton: Non-Album/$artist/$title
+  comp: Compilations/$album%aunique{}/$track $title
+
+
+# Plugins
+fetchart:
+  midwidth: 400
+  sources: filesystem itunes amazon albumart coverart wikipedia
+  #This is the arguments for the fetchart plugin. The minimum width of the downloaded album art is 400 pixels. The maximum deviation from perfectly square the photo can have is 10px, either vertically or horizontally. The sources are a list of where beets will look for album art, starting at the left and going to the right. I put filesystem first so beets checks my files for a cover first, and only goes onto the internet to find one if there isn't one already.
+
+embedart:
+  auto: no
+  #Embed art is great, but it slows down the import process a lot. I run the command when I want to and have a lot of time to spare. I do not want it to automatically run when I import my music.
+  #
+discogs:
+  source_weight: 0.8
