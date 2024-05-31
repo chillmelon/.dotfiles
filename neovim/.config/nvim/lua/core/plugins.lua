@@ -78,5 +78,4 @@ return {{
   'stevearc/conform.nvim',
   'voldikss/vim-floaterm',
   'lukas-reineke/indent-blankline.nvim',
-  'petobens/poet-v',
 }}
