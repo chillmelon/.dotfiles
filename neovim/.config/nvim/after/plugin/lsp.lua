@@ -48,7 +48,21 @@ require("mason-lspconfig").setup_handlers({
       on_attach = on_attach,
     }
   end,
-  -- Next, you can provide targeted overrides for specific servers.
+   --Next, you can provide targeted overrides for specific servers.
+  ["pyright"] = function()
+    lspconfig.pyright.setup {
+      settings = {
+        python = {
+          venvPath = ".",
+          pythonPath = "./.venv/bin/python",
+          analysis = {
+            extraPaths = {"."},
+          },
+        },
+      },
+    }
+  end,
+
   ["lua_ls"] = function()
     lspconfig.lua_ls.setup {
       on_attach = on_attach,

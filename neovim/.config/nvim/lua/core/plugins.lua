@@ -76,7 +76,7 @@ return {{
   'grddavies/tidal.nvim',
   'prisma/vim-prisma',
   'stevearc/conform.nvim',
-  'petobens/poet-v',
   'voldikss/vim-floaterm',
   'lukas-reineke/indent-blankline.nvim',
+  'petobens/poet-v',
 }}
