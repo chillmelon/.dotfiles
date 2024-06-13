@@ -30,7 +30,12 @@ return {{
       'williamboman/mason-lspconfig.nvim',
     }
   },
-  'folke/neodev.nvim',
+  {
+    'folke/lazydev.nvim',
+    config = function ()
+      require('lazydev').setup()
+    end,
+  },
 
   -- Completion
   {
@@ -67,9 +72,16 @@ return {{
   },
   {
     'folke/zen-mode.nvim',
-    opts = {
-
-    },
+    opts = {},
+  },
+  {
+    'stevearc/oil.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' },
+    config = function ()
+      require('oil').setup({
+        default_file_explorer = false,
+      })
+    end,
   },
 
   -- Other
