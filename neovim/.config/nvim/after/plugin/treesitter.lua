@@ -7,7 +7,7 @@ ts.setup({
   },
   indent = {
     enable = true,
-    disable = {},
+    disable = {'supercollider'},
   },
   modules = {},
   auto_install = true,

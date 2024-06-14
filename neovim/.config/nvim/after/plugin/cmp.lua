@@ -4,6 +4,7 @@ local luasnip = require('luasnip')
 require('luasnip').filetype_extend('php', { 'laravel', 'html' })
 require('luasnip').filetype_extend('javascriptreact', { 'html' })
 require('luasnip').filetype_extend('typescriptreact', { 'html' })
+require("luasnip").add_snippets("supercollider", require("scnvim/utils").get_snippets())
 require('luasnip.loaders.from_vscode').lazy_load()
 
 vim.opt.completeopt = { "menu", "menuone", "noselect" }
