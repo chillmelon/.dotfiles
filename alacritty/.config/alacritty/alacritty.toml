@@ -471,6 +471,7 @@ mods = "Control"
 
 [window]
 dynamic_padding = true
+option_as_alt = "Both"
 
 [window.class]
 general = "Alacritty"
