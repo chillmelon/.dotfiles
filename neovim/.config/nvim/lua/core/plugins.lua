@@ -21,6 +21,10 @@ return {{
   'tpope/vim-surround',
   'tpope/vim-repeat',
   'windwp/nvim-autopairs',
+  {
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+  },
 
   -- LSP
   {
