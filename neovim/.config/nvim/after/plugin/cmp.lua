@@ -84,12 +84,12 @@ cmp.setup({
   },
 
   sources = cmp.config.sources({
-    { name = "nvim_lua" },
+    { name = "buffer", keyword_length = 5 },
     { name = "nvim_lsp" },
+    { name = "nvim_lua" },
     { name = "luasnip" },
   }, {
     { name = "path" },
-    { name = "buffer", keyword_length = 5 },
   }),
 
   sorting = {

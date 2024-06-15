@@ -470,6 +470,8 @@ key = "Return"
 mods = "Control"
 
 [window]
+opacity = 0.85
+
 dynamic_padding = true
 option_as_alt = "Both"
 

@@ -16,9 +16,6 @@ alias g++="g++ -std=c++11"
 alias python="python3"
 alias loaf="/Applications/loaf.app/Contents/MacOS/loaf"
 
-# Autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
 # Antigen
 source $HOME/.antigen.zsh
 
@@ -49,7 +46,20 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/chill/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chill/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/chill/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chill/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/chill/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chill/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/chill/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chill/google-cloud-sdk/completion.zsh.inc'; fi
+source ${HOME}/.ghcup/env
+
+
+# Herd injected PHP 8.3 configuration.
+export HERD_PHP_83_INI_SCAN_DIR="/Users/chill/Library/Application Support/Herd/config/php/83/"
+
+
+# Herd injected PHP binary.
+export PATH="/Users/chill/Library/Application Support/Herd/bin/":$PATH
+
+
+# Herd injected PHP 8.2 configuration.
+export HERD_PHP_82_INI_SCAN_DIR="/Users/chill/Library/Application Support/Herd/config/php/82/"

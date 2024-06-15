@@ -7,7 +7,14 @@ return {{
     priority = 1000,
     config = function()
       -- load the colorscheme here
-      vim.cmd([[colorscheme tokyonight]])
+      require('tokyonight').setup({
+        --transparent = true,
+        --styles = {
+          --sidebars = 'transparent',
+          --float = 'transparent',
+        --}
+      })
+      vim.cmd.colorscheme 'tokyonight'
     end,
   },
 
@@ -86,6 +93,9 @@ return {{
         default_file_explorer = false,
       })
     end,
+  },
+  {
+    'xiyaowong/transparent.nvim'
   },
 
   -- Other
