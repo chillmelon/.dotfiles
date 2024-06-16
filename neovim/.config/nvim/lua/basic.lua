@@ -1,14 +1,16 @@
 -- Important
 vim.g.mapleader = " "
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-vim.opt.termguicolors = true
+vim.g.maplocalleader = " "
+vim.g.have_nerd_font = true
+
+vim.o.termguicolors = true
 vim.o.mouse = 'a'
 vim.o.errorbells = false
 vim.o.scrolloff = 3
 vim.o.termguicolors = true
 vim.o.swapfile = false
 vim.o.clipboard = "unnamedplus"
+vim.o.showmode = false
 
 -- UI
 vim.o.number = true
@@ -29,5 +31,6 @@ vim.o.shiftwidth = 2
 vim.o.ignorecase = true
 vim.o.hlsearch = false
 
+-- Other
 vim.g.python3_host_prog = '/usr/local/bin/python3'
 vim.g.poetv_auto_activate = 1
