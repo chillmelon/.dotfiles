@@ -31,13 +31,18 @@ export LANG=en_US.UTF-8
 export ZSH="$HOME/.zsh"
 export SYSTEM_VERSION_COMPAT=0
 
-# Ruby
+# Init Tools
 eval "$(rbenv init - zsh)"
+eval "$(zoxide init zsh --cmd=cd)"
+
 # Aliases
 alias vim="nvim"
 alias cat="bat"
 alias g++="g++ -std=c++11"
 alias python="python3"
+alias ls="ls --color"
+alias ll="ls -l --color"
+alias la="ls -la --color"
 
 export PATH="$HOME/Library/Python/3.12/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
@@ -48,3 +53,11 @@ export PATH="/Users/chill/.local/bin:$PATH"
 export PATH="/usr/local/opt/php@8.1/bin:$PATH"
 export PATH="/usr/local/opt/php@8.1/sbin:$PATH"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+
+# Herd injected PHP 8.3 configuration.
+export HERD_PHP_83_INI_SCAN_DIR="/Users/chiyu/Library/Application Support/Herd/config/php/83/"
+
+
+# Herd injected PHP binary.
+export PATH="/Users/chiyu/Library/Application Support/Herd/bin/":$PATH

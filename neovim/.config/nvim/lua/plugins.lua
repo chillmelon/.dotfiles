@@ -29,21 +29,14 @@ require('lazy').setup({
   require 'plugin.telescope',
 
   -- Useful
+  require 'plugin.treesitter',
   require 'plugin.gitsigns',
-  {
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-  },
-  {
-    'xiyaowong/transparent.nvim'
-  },
 
-  -- Other
+  -- Live Coding
   require 'plugin.tidal',
   require 'plugin.scnvim',
 
-  'prisma/vim-prisma',
-  'stevearc/conform.nvim',
-  'voldikss/vim-floaterm',
-  'lukas-reineke/indent-blankline.nvim',
+  {
+    'xiyaowong/transparent.nvim'
+  },
 })
