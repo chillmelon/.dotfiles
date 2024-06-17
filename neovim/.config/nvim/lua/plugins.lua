@@ -20,15 +20,17 @@ require('lazy').setup({
   require 'plugin.autopairs',
   require 'plugin.lualine',
 
+  -- Coding
   require 'plugin.lsp',
   require 'plugin.ibl',
+  require 'plugin.conform',
 
   -- Completion
   require 'plugin.cmp',
 
-  require 'plugin.telescope',
 
   -- Useful
+  require 'plugin.telescope',
   require 'plugin.treesitter',
   require 'plugin.gitsigns',
 
