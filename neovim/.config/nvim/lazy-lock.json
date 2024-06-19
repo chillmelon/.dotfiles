@@ -21,6 +21,7 @@
   "nvim-tree.lua": { "branch": "master", "commit": "2086e564c4d23fea714e8a6d63b881e551af2f41" },
   "nvim-treesitter": { "branch": "master", "commit": "71a8e8b4b6ebab39765615334d4241a18090a651" },
   "nvim-web-devicons": { "branch": "master", "commit": "c0cfc1738361b5da1cd0a962dd6f774cc444f856" },
+  "oil.nvim": { "branch": "master", "commit": "64a3a555b40d96faae488ed6cf5d0f8b38520891" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
   "scnvim": { "branch": "main", "commit": "de0fbc35ddbe023622371211f5cf599a4a960087" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "9ef21b2e6bb6ebeaf349a0781745549bbb870d27" },
@@ -28,9 +29,7 @@
   "tidal.nvim": { "branch": "main", "commit": "56b9e462bcd9ce3773fb11e4250c906441d26f8f" },
   "tokyonight.nvim": { "branch": "main", "commit": "81c867c5f638597a82c82094dcb90ed42444dabc" },
   "transparent.nvim": { "branch": "main", "commit": "fd35a46f4b7c1b244249266bdcb2da3814f01724" },
-  "vim-floaterm": { "branch": "master", "commit": "4e28c8dd0271e10a5f55142fb6fe9b1599ee6160" },
   "vim-fugitive": { "branch": "master", "commit": "64d6cafb9dcbacce18c26d7daf617ebb96b273f3" },
-  "vim-prisma": { "branch": "main", "commit": "95c5b25066efb34c75bce78698baa371fe0ee7c2" },
   "vim-repeat": { "branch": "master", "commit": "24afe922e6a05891756ecf331f39a1f6743d3d5a" },
   "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" }
 }
