@@ -4,7 +4,7 @@ vim.g.maplocalleader = " "
 vim.g.have_nerd_font = true
 
 vim.o.termguicolors = true
-vim.o.mouse = 'a'
+vim.o.mouse = "a"
 vim.o.errorbells = false
 vim.o.scrolloff = 3
 vim.o.termguicolors = true
@@ -17,7 +17,7 @@ vim.o.number = true
 vim.o.wrap = false
 vim.o.numberwidth = 4
 vim.o.showtabline = 2
-vim.o.signcolumn = 'yes'
+vim.o.signcolumn = "yes"
 vim.o.splitbelow = true
 vim.o.splitright = true
 
@@ -32,5 +32,6 @@ vim.o.ignorecase = true
 vim.o.hlsearch = false
 
 -- Other
-vim.g.python3_host_prog = '/usr/local/bin/python3'
+vim.g.python3_host_prog = "/usr/local/bin/python3"
 vim.g.poetv_auto_activate = 1
+vim.opt.conceallevel = 1

@@ -28,6 +28,9 @@ require("lazy").setup({
 	-- Completion
 	require("plugin.cmp"),
 
+	-- Note Taking
+	require("plugin.obsidian"),
+
 	-- Useful
 	require("plugin.telescope"),
 	require("plugin.treesitter"),
