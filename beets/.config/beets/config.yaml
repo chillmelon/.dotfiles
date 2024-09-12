@@ -1,5 +1,5 @@
 directory: ~/Music/Crates
-plugins: the fetchart embedart scrub lastgenre discogs fromfilename bandcamp
+plugins: bandcamp the fetchart embedart scrub lastgenre discogs fromfilename
 
 import:
   copy: no
@@ -32,3 +32,14 @@ embedart:
   #
 discogs:
   source_weight: 0.8
+
+bandcamp:
+  include_digital_only_tracks: true
+  search_max: 2
+  art: yes
+  comments_separator: "\n---\n"
+  exclude_extra_fields: []
+  genre:
+    capitalize: no
+    maximum: 0
+    always_include: []

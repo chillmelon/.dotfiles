@@ -61,3 +61,12 @@ export HERD_PHP_83_INI_SCAN_DIR="/Users/chiyu/Library/Application Support/Herd/c
 
 # Herd injected PHP binary.
 export PATH="/Users/chiyu/Library/Application Support/Herd/bin/":$PATH
+
+# Created by `pipx` on 2024-06-21 07:38:54
+export PATH="$PATH:/Users/chiyu/.local/bin"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/chiyu/code/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chiyu/code/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/chiyu/code/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chiyu/code/google-cloud-sdk/completion.zsh.inc'; fi
