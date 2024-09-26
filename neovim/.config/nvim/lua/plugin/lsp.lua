@@ -126,9 +126,9 @@ return {
 						},
 					},
 				},
-				tsserver = {
-					filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue" },
-				},
+				--tsserver = {
+				--filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue" },
+				--},
 			}
 
 			require("mason").setup()
